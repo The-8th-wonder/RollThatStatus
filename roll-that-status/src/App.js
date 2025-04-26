@@ -4,8 +4,8 @@ import React, { useState, useEffect } from "react";
 // stolen from copilot :(
 // Grab random value from status dictionary
 const App = () => {
-  // Step 1: Create a dictionary-like object
-  const myDict = {
+  // dictionary of statuses
+  const statusDict = {
     1: 'I ɐɯ ɐ ʍɐlʞᴉuƃ dɐɹɐpox',
     2: 'I wish you knew how much I loved you',
     3: 'before the devil knows youre dead',
@@ -44,25 +44,24 @@ const App = () => {
     // yes, a majority of these are song lyrics, what of it?
   };
 
-  // Step 2: Generate a random number
-  const getRandomNumber = () => {
-    return Math.floor(Math.random() * Object.keys(myDict).length) + 1;
+  // generate a random number
+  const generateRandNum = () => {
+    return Math.floor(Math.random() * Object.keys(statusDict).length) + 1;
   };
 
-  // Step 3: Fetch the value from the object based on the random number
-  const [randomValue, setRandomValue] = useState('');
+  // Fetch the value from the object based on the random number
+  const [randValue, setRandValue] = useState('');
 
   useEffect(() => {
-    const randomNumber = getRandomNumber();
-    setRandomValue(myDict[randomNumber]);
+    const num = generateRandNum();
+    setRandValue(statusDict[num]);
   }, []);
 
   return (
     <div>
-      <p>{randomValue}</p>
+      <p>{randValue}</p>
     </div>
   );
 };
-
 
 export default App;
