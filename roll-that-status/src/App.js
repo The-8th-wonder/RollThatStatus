@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import './App.css';
+import './App.css';
 
 // stolen from copilot :(
 // Grab random value from status dictionary
@@ -58,7 +58,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div id="status">
       <p>{randValue}</p>
     </div>
   );
