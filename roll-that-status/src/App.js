@@ -49,6 +49,8 @@ const App = () => {
     42: 'I reap what I sow.\nI wonder if it will be a good harvest this year...',
     43: 'No amount of self-sought fury \n Will bring back the glory of innocence',
     44: 'Wear me out like Prada, devil in my detail'
+    45: 'My daydream may be fake\nbut babe, you are too',
+    46: 'I\'m a lover, but I\'ll fight\nfor you baby \<3'
 
     // Also, I didn't ask 🫵😐
     // yes, a majority of these are song lyrics, what of it?
