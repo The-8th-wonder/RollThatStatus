@@ -39,7 +39,7 @@ const App = () => {
     32: 'I know your soul is not tainted \n Even though you\'ve been told so',
     33: 'Who will pray for Babylon?',
     34: 'just me helping plan\nmy own demise',
-    35: 'there was a never a plot to lose'
+    35: 'there was never a plot to lose'
 
     // Also, I didn't ask 🫵😐
     // yes, a majority of these are song lyrics, what of it?
