@@ -37,7 +37,8 @@ const App = () => {
     30: 'religious trauma be like',
     31: 'Wear me out like Prada, devil in my detail',
     32: 'I know your soul is not tainted \n Even though you\'ve been told so',
-    33: 'Who will pray for Babylon?'
+    33: 'Who will pray for Babylon?',
+    34: 'just me helping plan\nmy own demise'
 
     // Also, I didn't ask 🫵😐
     // yes, a majority of these are song lyrics, what of it?
