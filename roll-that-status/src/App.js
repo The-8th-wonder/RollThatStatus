@@ -27,7 +27,7 @@ const App = () => {
     19: 'My, my, those eyes like fire \n I\'m a winged insect, you\'re a funeral pyre',
     20: 'I\'m a waking hell and the gods grow tired',
     21: 'Godmother, rise up \n I need you to see me for what I have become',
-    22: 'It goes to show that\nwe don\' realize what we got\nuntil we lose it',
+    22: 'It goes to show that\nwe don\'t realize what we got\nuntil we lose it',
     23: 'I don\'t know what\'s got its teeth in me \n but I\'m about to bite back in anger',
     24: 'No amount of self-sought fury \n Will bring back the glory of innocence',
     25: 'I have traveled far beyond the path of reason',
