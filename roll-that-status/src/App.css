@@ -1,21 +1,12 @@
-body {
-  background-image: url('imgs/cursed-background.png');
-  background-position-x: fixed;
-  background-position-x: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* stolen from chat gpt :(( */
 #status {
+  font-family: 'Lov';
   text-align: center;
   margin: 0;
-  margin-top: 15%;
-  height: 100vh;
-  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-weight: bold;
-  font-size: large;
+  color: rgb(255, 255, 255);
+  bottom: 20vh;
+  right: 1.5vh;
+  font-size: 3.5vh;
 }

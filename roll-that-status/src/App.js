@@ -9,25 +9,25 @@ const App = () => {
     1: 'I ɐɯ ɐ ʍɐlʞᴉuƃ dɐɹɐpox',
     2: 'I wish you knew how much I loved you',
     3: 'before the devil knows youre dead',
-    4: 'I reap what I sow. I wonder if it will be a good harvest this year...',
+    4: 'I reap what I sow.\nI wonder if it will be a good harvest this year...',
     5: 'louder than gods revolver and twice as shiny',
-    6: '<i>sips juice</i>',
+    6: '*sips juice*',
     7: 'whats up my noodle',
     8: 'a smelly smell that smells smelly',
-    9: 'feeling like laying in the forest and letting the fungus and moss accept me as their own',
+    9: 'feeling like laying in the forest\nand letting the fungus and moss\naccept me as their own',
     10: '𝓉𝒽𝑒 𝓆𝓊𝒾𝑒𝓉 𝒸𝑜𝓂𝓅𝓇𝑒𝒽𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝓉𝒽𝑒 𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝒾𝓉 𝒶𝓁𝓁',
     11: 'oh?',
-    12: 'i think im dark and broody but im actually a grumpy old asshole who has dementia \n and needs to take their fucking meds',
+    12: 'The world could use more\npeople with onion and garlic allergies',
     13: 'getting drunk on boohooze and whine',
     14: 'Did I mistake you for a sign from God',
     15: 'Crawling from hell, fallen from grace',
     16: 'Rather be six feet under than be lonely',
-    17: 'My redemption, eternal ascension \n Setting me free',
+    17: 'My redemption, eternal ascension\nSetting me free',
     18: 'You get what you give, you reap what you sow',
     19: 'My, my, those eyes like fire \n I\'m a winged insect, you\'re a funeral pyre',
     20: 'I\'m a waking hell and the gods grow tired',
     21: 'Godmother, rise up \n I need you to see me for what I have become',
-    22: 'It goes to show that we don\' realize what we got until we lose it',
+    22: 'It goes to show that\nwe don\' realize what we got\nuntil we lose it',
     23: 'I don\'t know what\'s got its teeth in me \n but I\'m about to bite back in anger',
     24: 'No amount of self-sought fury \n Will bring back the glory of innocence',
     25: 'I have traveled far beyond the path of reason',
@@ -57,9 +57,15 @@ const App = () => {
     setRandValue(statusDict[num]);
   }, []);
 
+  // new line handle stolen by copilot once more 😔
   return (
     <div id="status">
-      <p>{randValue}</p>
+      <p>{randValue.split('\n').map((line, index) => (
+        <React.Fragment key={index}>
+          {line}
+          <br />
+        </React.Fragment>
+      ))}</p>
     </div>
   );
 };
