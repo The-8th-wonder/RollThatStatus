@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 
-// stolen from copilot :(
 // Grab random value from status dictionary
 const App = () => {
   // dictionary of statuses
@@ -57,7 +56,6 @@ const App = () => {
     setRandValue(statusDict[num]);
   }, []);
 
-  // new line handle stolen by copilot once more 😔
   return (
     <div id="status">
       <p>{randValue.split('\n').map((line, index) => (
