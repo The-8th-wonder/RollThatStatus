@@ -52,7 +52,7 @@ const App = () => {
     45: 'My daydream may be fake\nbut babe, you are too',
     46: 'I\'m a lover, but I\'ll fight\nfor you baby \<3',
     47: 'Almond scented?👀\nThat\’s my favorite🥰',
-    48: 'When it all looks like heaven,\nbut it feels like hell',
+    48: 'When it all looks like heaven,\nbut it feels like hell'
 
     // Also, I didn't ask 🫵😐
     // yes, a majority of these are song lyrics, what of it?
