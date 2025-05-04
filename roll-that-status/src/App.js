@@ -15,6 +15,7 @@ const App = () => {
     8: 'Laws can be broken,\nwalk on the cieling',
     9: 'I wish you knew how much I loved you',
     10: 'Who will pray for Babylon?',
+    11: 'Do you mean to say\nyou know not of your sins?',
     12: 'I ɐɯ ɐ ʍɐlʞᴉuƃ dɐɹɐpox',
     13: '*sips juice*',
     14: 'I\'ll be the first to admit I\'m a lonely soul\nAnd the last to admit I need a hand to hold',
