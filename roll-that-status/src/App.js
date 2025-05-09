@@ -34,8 +34,7 @@ const App = () => {
     27 : 'When it all looks like heaven,\nbut it feels like hell',
     28 : 'Angel of death tell me\nwhen will your reign be done?',
     29 : 'Memento mori,\nbe mindful of death.',
-    30 : 'And a word to the wise:\,when the fire dies, you\'ll think\nit\'s over, but it\s just begun.',
-    31 : 'I WILL learn the secrets of the universe, watch me.'
+    30 : 'I WILL learn the secrets of the universe, watch me.',
 
     // Also, I didn't ask 🫵😐
     // yes, a majority of these are song lyrics, what of it?
