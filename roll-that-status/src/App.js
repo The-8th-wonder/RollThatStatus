@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 
+export default function App(){
+  return (
+    <>
+      <Status />
+    </>
+  );
+}
+
 // Grab random value from status dictionary
-const App = () => {
+function Status() {
   // dictionary of statuses
   const statusDict = {
     1  : 'a smelly smell that smells smelly',
@@ -65,4 +73,4 @@ const App = () => {
   );
 };
 
-export default App;
+
