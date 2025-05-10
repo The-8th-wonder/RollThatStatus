@@ -1,5 +1,5 @@
 # RollThatStatus
 
-https://roll-that-status.vercel.app  
+https://roll-that-status.vercel.app
 
 Best displayed in desktop
