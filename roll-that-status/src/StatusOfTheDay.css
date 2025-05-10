@@ -1,0 +1,19 @@
+#button {
+    position: relative;
+    bottom: 80vh;
+    margin-left: 5vh;
+}
+
+.drawer {
+    background-size: 40% 40%;   /* Makes sure the image is fully visible */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important; /* Optional: for transparency */
+    height: 380px !important; /* Your custom height */
+    width: 600px !important; /* Your custom width */
+    top: 100px !important; /* Position from the top */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

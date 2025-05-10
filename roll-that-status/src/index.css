@@ -6,6 +6,7 @@
 }
 
 #title {
+  /* position: relative; */
   background-image: url('imgs/casino-font.png');
   background-repeat: no-repeat;
   margin: 0;
@@ -13,11 +14,8 @@
   background-position-x: center;
 }
 
-#test{
-  color: white;
-}
-
 body {
+  /* position: relative; */
   background-image: url('imgs/cursed-background.png');
   background-position-x: fixed;
   background-position-x: center;
