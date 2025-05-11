@@ -4,6 +4,7 @@ import 'react-modern-drawer/dist/index.css';
 import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
 import OpenImage from './imgs/OPEN.png';
+import CloseImage from './imgs/CLOSE.png';
 
 export default function StatusOfTheDay(){
   return (
@@ -40,7 +41,7 @@ function Tab() {
                 }}
             >
               <div id="text">
-                <button id="close" onClick={toggleDrawer}>close</button>
+                <button id="close-button" onClick={toggleDrawer}><img id="close-image" src={CloseImage} alt="close"/></button>
                 <p>{text.split('\n').map((line, index) => (
                         <React.Fragment key={index}>
                           {line}

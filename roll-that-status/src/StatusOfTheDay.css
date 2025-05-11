@@ -41,12 +41,19 @@
     font-size: larger;
     font-weight: 500;
     position: relative;
-    top: 6vh;
+    top: 3vh;
     left: -4.5vh;
 }
 
-#close {
+#close-button {
     position: relative;
     top: -5vh;
     left: 46vh;
+    border: none;
+    background-color: transparent;
+}
+
+#close-image {
+    position: relative;
+    height: 8vh;
 }
