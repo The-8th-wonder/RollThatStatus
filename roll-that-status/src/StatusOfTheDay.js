@@ -25,7 +25,7 @@ function Tab() {
     return (
         <>
         {/* <GiTicket id="ticket"/> */}
-        <div id="button"><button onClick={toggleDrawer}>open</button></div> 
+        <div id="button"><button id="open" onClick={toggleDrawer}><img src="roll-that-status\src\imgs\OPEN.png" alt='open'></img></button></div> 
             <Drawer
                 open={isOpen}
                 onClose={toggleDrawer}

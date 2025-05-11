@@ -9,7 +9,11 @@
     position: relative;
     bottom: 80vh;
     margin-left: 5vh;
-    border: none;
+    /* border: none; */
+}
+
+#open {
+    
 }
 
 
