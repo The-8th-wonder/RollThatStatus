@@ -10,12 +10,8 @@
     bottom: 80vh;
     margin-left: 5vh;
     border: none;
-    /* font-size: 10vh; */
 }
 
-#ticket {
-    color: blue;
-}
 
 .drawer {
     background-size: 40% 40%;   /* Makes sure the image is fully visible */
