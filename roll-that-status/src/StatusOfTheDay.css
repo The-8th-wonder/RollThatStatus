@@ -5,17 +5,22 @@
   font-style: normal;
 }
 
-#button {
+#button-div {
     position: relative;
-    bottom: 80vh;
+    bottom: 87vh;
     margin-left: 5vh;
-    /* border: none; */
 }
 
-#open {
-    
+#open-button {
+    border: none;
+    background-color: transparent;
+    position: relative;
 }
 
+#open-image {
+    position: relative;
+    height: 10vh;
+}
 
 .drawer {
     background-size: 40% 40%;   /* Makes sure the image is fully visible */

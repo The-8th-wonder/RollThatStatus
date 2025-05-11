@@ -3,7 +3,7 @@ import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
 import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
-import { GiTicket } from "react-icons/gi";
+import OpenImage from './imgs/OPEN.png';
 
 export default function StatusOfTheDay(){
   return (
@@ -15,7 +15,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "I\'ll be the first to admit I\'m a lonely soul\nAnd the last to admit I need a hand to hold";
+  const text = "I'll be the first to admit I'm a lonely soul\nAnd the last to admit I need a hand to hold";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const toggleDrawer = () => {
@@ -24,8 +24,7 @@ function Tab() {
 
     return (
         <>
-        {/* <GiTicket id="ticket"/> */}
-        <div id="button"><button id="open" onClick={toggleDrawer}><img src="roll-that-status\src\imgs\OPEN.png" alt='open'></img></button></div> 
+        <div id="button-div"><button id="open-button" onClick={toggleDrawer}><img id="open-image" src={OpenImage} alt="open"/></button></div> 
             <Drawer
                 open={isOpen}
                 onClose={toggleDrawer}
