@@ -13,6 +13,9 @@ export default function StatusOfTheDay(){
 }
 
 function Tab() {
+
+  const text = "hi";
+
     const[isOpen, setIsOpen] = React.useState(false);
     const toggleDrawer = () => {
         setIsOpen((prevState) => !prevState);
@@ -35,6 +38,7 @@ function Tab() {
                   outline: 'none'
                 }}
             >
+              <p>{text}</p>
             </Drawer>
         </>
     );
