@@ -5,6 +5,7 @@ import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
 import OpenImage from './imgs/OPEN.png';
 import CloseImage from './imgs/CLOSE.png';
+import { CBadge, CButton } from '@coreui/react';
 
 export default function StatusOfTheDay(){
   return (
@@ -25,7 +26,11 @@ function Tab() {
 
     return (
         <>
-        <div id="button-div"><button id="open-button" onClick={toggleDrawer}><img id="open-image" src={OpenImage} alt="open"/></button></div> 
+        <div id="button-div">
+          <button id="open-button" onClick={toggleDrawer}>
+            <img id="open-image" src={OpenImage} alt="open"/>
+          </button>
+        </div> 
             <Drawer
                 open={isOpen}
                 onClose={toggleDrawer}
