@@ -14,7 +14,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "hi";
+  const text = "MAKE THE MAIN STATUS TEXT BIGGER\nOR FIX TH OVERALL SIZING";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const toggleDrawer = () => {
@@ -38,7 +38,7 @@ function Tab() {
                   outline: 'none'
                 }}
             >
-              <p>{text}</p>
+              <p id="text">{text}</p>
             </Drawer>
         </>
     );
