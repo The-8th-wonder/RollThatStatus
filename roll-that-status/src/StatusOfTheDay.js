@@ -3,6 +3,7 @@ import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
 import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
+import { GiTicket } from "react-icons/gi";
 
 export default function StatusOfTheDay(){
   return (
@@ -14,7 +15,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "MAKE THE MAIN STATUS TEXT BIGGER\nOR FIX TH OVERALL SIZING";
+  const text = "I\'ll be the first to admit I\'m a lonely soul\nAnd the last to admit I need a hand to hold";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const toggleDrawer = () => {
@@ -23,7 +24,8 @@ function Tab() {
 
     return (
         <>
-        <div id="button"><button onClick={toggleDrawer}>Show</button></div>
+        {/* <GiTicket id="ticket"/> */}
+        <div id="button"><button onClick={toggleDrawer}>open</button></div> 
             <Drawer
                 open={isOpen}
                 onClose={toggleDrawer}
@@ -38,7 +40,15 @@ function Tab() {
                   outline: 'none'
                 }}
             >
-              <p id="text">{text}</p>
+              <div id="text">
+                <button id="close" onClick={toggleDrawer}>close</button>
+                <p>{text.split('\n').map((line, index) => (
+                        <React.Fragment key={index}>
+                          {line}
+                          <br />
+                        </React.Fragment>
+                      ))}</p>
+              </div>
             </Drawer>
         </>
     );
