@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "I'll be the first to admit I'm a lonely soul\nAnd the last to admit I need a hand to hold";
+    const text = "im just a little guy in a big world 🥺";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const[showBadge, setshowBadge] = React.useState(true);
@@ -48,9 +48,9 @@ function Tab() {
                   outline: 'none'
                 }}
             >
-              <div id="text">
+              <div>
                 <button id="close-button" onClick={toggleDrawer}><img id="close-image" src={CloseImage} alt="close"/></button>
-                <p>{text.split('\n').map((line, index) => (
+                <p id="text">{text.split('\n').map((line, index) => (
                         <React.Fragment key={index}>
                           {line}
                           <br />
