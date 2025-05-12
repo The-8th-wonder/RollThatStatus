@@ -5,7 +5,8 @@ import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
 import OpenImage from './imgs/OPEN.png';
 import CloseImage from './imgs/CLOSE.png';
-import { CBadge, CButton } from '@coreui/react';
+import Badge from '@mui/material/Badge';
+import MailIcon from '@mui/icons-material/Mail';
 
 export default function StatusOfTheDay(){
   return (
@@ -28,7 +29,9 @@ function Tab() {
         <>
         <div id="button-div">
           <button id="open-button" onClick={toggleDrawer}>
-            <img id="open-image" src={OpenImage} alt="open"/>
+            <Badge badgeContent={4} color="primary">
+              <img id="open-image" src={OpenImage} alt="open"/>
+            </Badge>
           </button>
         </div> 
             <Drawer
