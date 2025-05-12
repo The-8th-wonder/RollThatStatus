@@ -44,6 +44,7 @@ function Status() {
       28 : 'Angel of death tell me\nwhen will your reign be done?',
       29 : 'Memento mori,\nbe mindful of death.',
       30 : 'I WILL learn the secrets of the universe, watch me.',
+      31 : 'It seems that even in Arcadia\nyou walk beside me still'
 
       // Also, I didn't ask 🫵😐
       // yes, a majority of these are song lyrics, what of it?
