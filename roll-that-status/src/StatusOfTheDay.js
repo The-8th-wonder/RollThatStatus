@@ -5,8 +5,6 @@ import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
 import OpenImage from './imgs/OPEN.png';
 import CloseImage from './imgs/CLOSE.png';
-import Badge from '@mui/material/Badge';
-import MailIcon from '@mui/icons-material/Mail';
 
 export default function StatusOfTheDay(){
   return (
@@ -21,18 +19,20 @@ function Tab() {
   const text = "I'll be the first to admit I'm a lonely soul\nAnd the last to admit I need a hand to hold";
 
     const[isOpen, setIsOpen] = React.useState(false);
+    const[showBadge, setshowBadge] = React.useState(true);
+
     const toggleDrawer = () => {
         setIsOpen((prevState) => !prevState);
+        setshowBadge(false);
     }
 
     return (
         <>
         <div id="button-div">
           <button id="open-button" onClick={toggleDrawer}>
-            <Badge badgeContent={4} color="primary">
-              <img id="open-image" src={OpenImage} alt="open"/>
-            </Badge>
+            <img id="open-image" src={OpenImage} alt="open"/>
           </button>
+          {showBadge && <span id="badge">1</span> }
         </div> 
             <Drawer
                 open={isOpen}

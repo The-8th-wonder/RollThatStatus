@@ -7,6 +7,7 @@
 
 #button-div {
     position: relative;
+    display: inline-block;
     bottom: 87vh;
     margin-left: 5vh;
 }
@@ -57,3 +58,15 @@
     position: relative;
     height: 8vh;
 }
+
+#badge {
+    position: absolute;
+    top: 1vh;
+    right: 0.9vh;
+    background-color: red;
+    color: white;
+    border-radius: 50vh;
+    padding: 0.222vh 0.667VH;
+    font-size: 1.333vh;
+}
+ 
