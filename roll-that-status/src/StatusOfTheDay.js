@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-    const text = "we can be lonely together ❤️‍🩹";
+    const text = "i need to rot even in arcadia so bad";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const[showBadge, setshowBadge] = React.useState(true);
