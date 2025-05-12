@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Jqkas';
+  src: url('fonts/JqkasWild-w1YD6.eot'), url('fonts/JqkasWild-w1YD6.ttf') format('truetype'), url('fonts/JqkasWild-w1YD6.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#button-div {
+    position: relative;
+    display: inline-block;
+    bottom: 87vh;
+    margin-left: 5vh;
+}
+
+#open-button {
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+#open-image {
+    position: relative;
+    height: 10vh;
+}
+
+.drawer {
+    background-size: 40% 40%;   /* Makes sure the image is fully visible */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important; /* Optional: for transparency */
+    height: 380px !important; /* Your custom height */
+    width: 600px !important; /* Your custom width */
+    top: 100px !important; /* Position from the top */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text {
+    font-family: 'Jqkas';
+    font-size: larger;
+    font-weight: 500;
+    position: fixed;
+    top: 23vh;
+    left: 9vh;
+}
+
+#close-button {
+    position: fixed;
+    top: 13vh;
+    left: 54vh;
+    border: none;
+    background-color: transparent;
+}
+
+#close-image {
+    position: relative;
+    height: 8vh;
+}
+
+#badge {
+    position: absolute;
+    top: 1vh;
+    right: 0.9vh;
+    background-color: red;
+    color: white;
+    border-radius: 50vh;
+    padding: 0.222vh 0.667VH;
+    font-size: 1.333vh;
+}
+ 
