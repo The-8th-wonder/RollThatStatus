@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-    const text = "What good is all this talk of wings\nwhen there is nothing left above?";
+    const text = "Oh and I wish that I could\nleave myself alone";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const[showBadge, setshowBadge] = React.useState(true);
