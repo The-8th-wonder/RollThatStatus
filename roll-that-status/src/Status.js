@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import './Status.css';
+import DiceButton from './imgs/king-dice-head.png';
 
 export default function RunStatus(){
   return (
@@ -64,14 +65,22 @@ function Status() {
     setRandValue(statusDict[num]);
   }, [generateRandNum, statusDict]);
 
+  const randomizeButton = () => {
+    const num = generateRandNum();
+    setRandValue(statusDict[num]);
+  };
+
   return (
-    <div id="status">
-      <p>{randValue.split('\n').map((line, index) => (
+    <div>
+      <p id="status">{randValue.split('\n').map((line, index) => (
         <React.Fragment key={index}>
           {line}
           <br />
         </React.Fragment>
       ))}</p>
+      <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
+        <img id="dice-image" src={DiceButton} alt="roll"/>
+      </button>
     </div>
   );
 };

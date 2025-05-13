@@ -29,7 +29,7 @@ function Tab() {
     return (
         <>
         <div id="button-div">
-          <button id="open-button" onClick={toggleDrawer}>
+          <button title="Open status of the day" id="open-button" onClick={toggleDrawer}>
             <img id="open-image" src={OpenImage} alt="open"/>
           </button>
           {showBadge && <span id="badge">1</span> }
@@ -49,7 +49,7 @@ function Tab() {
                 }}
             >
               <div>
-                <button id="close-button" onClick={toggleDrawer}><img id="close-image" src={CloseImage} alt="close"/></button>
+                <button title="Close status of the day" id="close-button" onClick={toggleDrawer}><img id="close-image" src={CloseImage} alt="close"/></button>
                 <p id="text">{text.split('\n').map((line, index) => (
                         <React.Fragment key={index}>
                           {line}
@@ -61,4 +61,3 @@ function Tab() {
         </>
     );
 }
-
