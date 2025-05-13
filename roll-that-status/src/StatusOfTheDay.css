@@ -44,14 +44,14 @@
     position: relative;
     align-items: center;
     text-align: center;
-    top: 5vh;
+    top: 3vh;
     left: -5vh;
 }
 
 #close-button {
     position: relative;
     top: .2vh;
-    left: 45vh;
+    left: 41vh;
     border: none;
     background-color: transparent;
 }
