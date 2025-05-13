@@ -41,15 +41,15 @@
     font-family: 'Jqkas';
     font-size: larger;
     font-weight: 500;
-    position: fixed;
-    top: 23vh;
-    left: 9vh;
+    position: relative;
+    top: 4vh;
+    left: -5vh;
 }
 
 #close-button {
-    position: fixed;
-    top: 13vh;
-    left: 54vh;
+    position: relative;
+    top: .2vh;
+    left: 48vh;
     border: none;
     background-color: transparent;
 }
