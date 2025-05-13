@@ -42,14 +42,16 @@
     font-size: larger;
     font-weight: 500;
     position: relative;
-    top: 4vh;
+    align-items: center;
+    text-align: center;
+    top: 5vh;
     left: -5vh;
 }
 
 #close-button {
     position: relative;
     top: .2vh;
-    left: 48vh;
+    left: 45vh;
     border: none;
     background-color: transparent;
 }
