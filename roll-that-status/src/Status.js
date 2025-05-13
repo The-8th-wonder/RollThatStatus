@@ -77,7 +77,7 @@ function Status() {
           <br />
         </React.Fragment>
       ))}</p>
-      <button id="dice-button" onClick={randomizeButton}>
+      <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
         <img id="dice-image" src={DiceButton} alt="roll"/>
       </button>
     </div>
