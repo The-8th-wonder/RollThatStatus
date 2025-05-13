@@ -7,7 +7,20 @@
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
-  bottom: 13vh;
+  bottom: 6vh;
   right: 1.5vh;
   font-size: 3.5vh;
+}
+
+#dice-button {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  bottom: 20vh;
+  left: 180vh;
+}
+
+#dice-image {
+  position: relative;
+  height: 10vh;
 }
