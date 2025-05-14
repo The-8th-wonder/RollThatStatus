@@ -3,3 +3,15 @@
     border: none;
     background-color: transparent;
 }
+
+#pc-img {
+    position: relative;
+    height: 5vh;
+    left: 10vh;
+    bottom: 5vh;
+}
+
+#popup {
+    position: relative;
+    align-items: center;
+}
