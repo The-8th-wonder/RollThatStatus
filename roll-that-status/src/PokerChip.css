@@ -12,6 +12,24 @@
 }
 
 #popup {
-    position: relative;
-    align-items: center;
+    position: absolute;
+    top: 70vh;
+    left: 100vh;
+}
+
+#secret-img {
+    position: absolute;
+    left: -70vh;
+    top: -30vh;
+}
+
+#awesome-btn{
+    position: absolute;
+    left: -8vh;
+    top: 50vh;
+    background-color: black;
+}
+
+#skull {
+    height: 10vh;
 }

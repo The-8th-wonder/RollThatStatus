@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import PCImage from './imgs/pokerchip.png';
 import './PokerChip.css';
+import SecretImg from './imgs/smile-ur-on-camera-wink.png';
+import Skull from './imgs/desperate-times.png';
 
 export default function PokerChipFunc(){
   return (
@@ -21,8 +23,10 @@ function PokerChip(){
             </button>
             {open && (
               <div id="popup">
-                <p>test</p>
-                <button onClick={() => setOpen(false)}>close</button>
+                <img id="secret-img" src={SecretImg} alt=''/>
+                <button id="awesome-btn" onClick={() => setOpen(false)}>
+                  <img id="skull" src={Skull} alt=''/>
+                </button>
               </div>
             )}
         </div>
