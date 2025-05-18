@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-    const text = "Why are the fanfics I read so depressing? 💀";
+    const text = "I will forever take the burdern\nas no one wants to take mine";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const[showBadge, setshowBadge] = React.useState(true);
