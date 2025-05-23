@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-    const text = "I'm going to be the definition of a butch\nlesbian, mark my fucking words";
+    const text = "I miss the Library of Alexandria...";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const[showBadge, setshowBadge] = React.useState(true);
