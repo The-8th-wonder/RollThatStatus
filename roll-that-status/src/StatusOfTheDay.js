@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-    const text = "What a time to be alive...\nsuch a waste of fucking time";
+    const text = "Your love is as bright as the starlight";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const[showBadge, setshowBadge] = React.useState(true);
