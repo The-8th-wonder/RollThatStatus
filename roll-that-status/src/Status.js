@@ -48,7 +48,8 @@ function Status() {
       31 : 'It seems that even in Arcadia\nyou walk beside me still',
       32 : 'Then you notice, that the current is\nrushing past you and fighting you.',
       33 : 'So swim with it, go with it.\nAnd you\'re there, you\'re at rest.',
-      34 : 'I don\'t even have the will to live. Why would I\nhave the will to brush my teeth??'
+      34 : 'I don\'t even have the will to live. Why would I\nhave the will to brush my teeth??',
+      35 : 'Does it need saying?'
 
       // Also, I didn't ask 🫵😐
       // yes, a majority of these are song lyrics, what of it?
