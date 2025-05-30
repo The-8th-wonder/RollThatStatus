@@ -36,5 +36,22 @@
   border-width: .4vh;
   border-radius: 1vh;
   top: 0vh;
-  left: 65vh;
+  left: 75vh;
+}
+
+#hover-button {
+  position: relative;
+  float: right;
+  bottom: 10vh;
+  border: none;
+  background: transparent;
+  right: 20vh;
+}
+
+#close-img {
+  height: 5vh;
+}
+
+#open-img {
+  height: 5vh;
 }
