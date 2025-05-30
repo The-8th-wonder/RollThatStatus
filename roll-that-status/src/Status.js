@@ -74,17 +74,35 @@ function Status() {
     setRandValue(statusDict[num]);
   };
 
+  const [isShown, setIsShown] = useState(false);
+
   return (
     <div>
-      <p id="status">{randValue.split('\n').map((line, index) => (
-        <React.Fragment key={index}>
-          {line}
-          <br />
-        </React.Fragment>
-      ))}</p>
-      <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
-        <img id="dice-image" src={DiceButton} alt="roll"/>
-      </button>
+      <div 
+        onMouseEnter={() => setIsShown(true)}
+        onMouseLeave={() => setIsShown(false)}
+      >
+        <p id="status">{randValue.split('\n').map((line, index) => (
+          <React.Fragment key={index}>
+            {line}
+            <br />
+          </React.Fragment>
+        ))}</p>
+      </div>
+      <div>
+        {isShown && (
+          <p id="hover">{randValue.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+            </React.Fragment>
+          ))}</p>
+        )}
+      </div>
+      <div>
+        <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
+          <img id="dice-image" src={DiceButton} alt="roll"/>
+        </button>
+      </div>
     </div>
   );
 };

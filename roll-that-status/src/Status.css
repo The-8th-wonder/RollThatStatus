@@ -24,3 +24,17 @@
   position: relative;
   height: 10vh;
 }
+
+#hover {
+  position: relative;
+  background-color: white;
+  width: 40vh;
+  text-align: center;
+  font-family: serif;
+  border-style: solid; 
+  border-color: black;
+  border-width: .4vh;
+  border-radius: 1vh;
+  top: 0vh;
+  left: 65vh;
+}
