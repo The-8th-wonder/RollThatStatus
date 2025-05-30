@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
+import openImg from './imgs/open.jpg';
+import closeImg from './imgs/close.jpg';
 
 export default function RunStatus(){
   return (
@@ -74,17 +76,59 @@ function Status() {
     setRandValue(statusDict[num]);
   };
 
+  const [isShown, setIsShown] = useState(false);
+  const [hoverEnabled, setHoverEnabled] = useState(true);
+
+  // this is sooooo gross i want to cry 😭
   return (
     <div>
-      <p id="status">{randValue.split('\n').map((line, index) => (
-        <React.Fragment key={index}>
-          {line}
-          <br />
-        </React.Fragment>
-      ))}</p>
-      <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
-        <img id="dice-image" src={DiceButton} alt="roll"/>
-      </button>
+      <div 
+        onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
+        onMouseLeave={() => { if (hoverEnabled) setIsShown(false)}}
+      >
+        <p id="status">{randValue.split('\n').map((line, index) => (
+          <React.Fragment key={index}>
+            {line}
+            <br />
+          </React.Fragment>
+        ))}</p>
+      </div>
+      <div>
+        {isShown && (
+          <p id="hover">{randValue.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+            </React.Fragment>
+          ))}</p>
+        )}
+      </div>
+      <div>
+        <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
+          <img id="dice-image" src={DiceButton} alt="roll"/>
+        </button>
+      </div>
+      <div>
+        <button id="hover-button" onClick={() => {
+          const newHoverState = !hoverEnabled;
+          setHoverEnabled(newHoverState);
+          if (!newHoverState) setIsShown(false);
+        }}>
+          {hoverEnabled ? 
+          ( 
+            <>
+              <img id="open-img" src={openImg} alt="Disable Hover"/>
+              <br />
+              <span>disable hover</span> {/* close enough 😭 */}
+            </> 
+            ) : ( 
+            <>
+              <img id="close-img" src={closeImg} alt="Enable Hover"/> 
+              <br />
+              <span>enable hover</span>
+            </>
+          )} 
+        </button>
+      </div>
     </div>
   );
 };
