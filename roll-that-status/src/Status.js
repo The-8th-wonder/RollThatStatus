@@ -162,10 +162,15 @@ function Status() {
       <div>
         <button onClick={togglePopup} id="openButton">Open Popup</button>
             {open && (
-                <div className="popup">
-                    <button onClick={togglePopup} id="closeButton">Close</button>
-                    <p id="textBody">This is a simple popup!</p>
-                </div>
+              <div className="popup">
+                <p id="list">
+                  Here is a list of all the statuses:
+                  {Object.entries(statusDict).map(([key, value]) => (
+                    <ol>{key}. {value}</ol>
+                  ))}
+                </p>
+                <button onClick={togglePopup} id="closeButton">Close</button> (I'm too lazy to make this look nice sry)
+              </div>
             )}
       </div>
 

@@ -42,7 +42,7 @@
 #hover-button {
   position: relative;
   float: right;
-  bottom: 10vh;
+  bottom: 5vh;
   border: none;
   background: transparent;
   right: 20vh;
@@ -58,8 +58,23 @@
 
 .popup {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: blue;
+  right: -45vh;
+  top: 70vh;
+  border-style: solid;
+  transform: translate(-50vh, -50vh);
+  background-color: white;
+  width: 55vh;
+}
+
+#list {
+  overflow-y: scroll;
+  width: 55vh;
+  height: 50vh;
+}
+
+#openButton {
+  position: relative;
+  float: right;
+  bottom: 90vh;
+  right: 10vh;
 }
