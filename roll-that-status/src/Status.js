@@ -3,6 +3,7 @@ import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
 import openImg from './imgs/open.jpg';
 import closeImg from './imgs/close.jpg';
+import DeckOfCards from './imgs/deck-of-cards.png';
 
 export default function RunStatus(){
   return (
@@ -160,7 +161,7 @@ function Status() {
 
       {/* Deck of cards */}
       <div>
-        <button onClick={togglePopup} id="openButton">Open Popup</button>
+        <button onClick={togglePopup} id="openButton"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
             {open && (
               <div className="popup">
                 <p id="list">

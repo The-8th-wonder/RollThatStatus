@@ -73,8 +73,14 @@
 }
 
 #openButton {
+  background: transparent;
+  border: none;
   position: relative;
   float: right;
   bottom: 90vh;
   right: 10vh;
+}
+
+#deck-of-cards-img {
+  height: 10vh;
 }
