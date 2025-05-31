@@ -54,6 +54,7 @@ function Status() {
       35 : 'Does it need saying?'
 
       // Also, I didn't ask 🫵😐
+      //...but it is sad though, you're right
       // yes, a majority of these are song lyrics, what of it?
     };
   }, []);
@@ -66,22 +67,29 @@ function Status() {
   // Fetch the value from the object based on the random number
   const [randValue, setRandValue] = useState('');
 
+  // randomizes status by refeshing page
   useEffect(() => {
     const num = generateRandNum();
     setRandValue(statusDict[num]);
   }, [generateRandNum, statusDict]);
 
+  // randomizes status by clicking button
   const randomizeButton = () => {
     const num = generateRandNum();
     setRandValue(statusDict[num]);
   };
 
+  // variables for status hover
   const [isShown, setIsShown] = useState(false);
   const [hoverEnabled, setHoverEnabled] = useState(true);
 
   // this is sooooo gross i want to cry 😭
+  // and now im gonna make it more gross cause im stoopid :(
   return (
     <div>
+
+
+      {/* main status */}
       <div 
         onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
         onMouseLeave={() => { if (hoverEnabled) setIsShown(false)}}
@@ -93,6 +101,9 @@ function Status() {
           </React.Fragment>
         ))}</p>
       </div>
+
+
+      {/* hover for main status */}
       <div>
         {isShown && (
           <p id="hover">{randValue.split('\n').map((line, index) => (
@@ -102,11 +113,17 @@ function Status() {
           ))}</p>
         )}
       </div>
+
+
+      {/* randomize status button */}
       <div>
         <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
           <img id="dice-image" src={DiceButton} alt="roll"/>
         </button>
       </div>
+
+
+      {/* hover enable/disable toggle button */}
       <div>
         <button id="hover-button" onClick={() => {
           const newHoverState = !hoverEnabled;
@@ -129,6 +146,13 @@ function Status() {
           )} 
         </button>
       </div>
+
+
+      {/* Deck of cards */}
+      <div>
+
+      </div>
+      
     </div>
   );
 };
