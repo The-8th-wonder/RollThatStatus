@@ -59,6 +59,8 @@ function Status() {
     };
   }, []);
 
+  /** CONST VARIABLES */
+
   // generate a random number
   const generateRandNum = useCallback(() => {
     return Math.floor(Math.random() * Object.keys(statusDict).length) + 1;
@@ -83,12 +85,20 @@ function Status() {
   const [isShown, setIsShown] = useState(false);
   const [hoverEnabled, setHoverEnabled] = useState(true);
 
+  const [open, setOpen] = useState(false);
+
+  const togglePopup = () => {
+      setOpen(!open);
+  };
+
+  /** HTML */
+
   // this is sooooo gross i want to cry 😭
   // and now im gonna make it more gross cause im stoopid :(
   return (
     <div>
 
-
+      
       {/* main status */}
       <div 
         onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
@@ -112,14 +122,6 @@ function Status() {
             </React.Fragment>
           ))}</p>
         )}
-      </div>
-
-
-      {/* randomize status button */}
-      <div>
-        <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
-          <img id="dice-image" src={DiceButton} alt="roll"/>
-        </button>
       </div>
 
 
@@ -148,11 +150,25 @@ function Status() {
       </div>
 
 
+      {/* randomize status button */}
+      <div>
+        <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
+          <img id="dice-image" src={DiceButton} alt="roll"/>
+        </button>
+      </div>
+
+
       {/* Deck of cards */}
       <div>
-
+        <button onClick={togglePopup} id="openButton">Open Popup</button>
+            {open && (
+                <div className="popup">
+                    <button onClick={togglePopup} id="closeButton">Close</button>
+                    <p id="textBody">This is a simple popup!</p>
+                </div>
+            )}
       </div>
-      
+
     </div>
   );
 };

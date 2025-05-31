@@ -1,7 +1,6 @@
 import RunStatus from './Status';
 import StatusOfTheDay from './StatusOfTheDay';
 import PokerChip from './PokerChip';
-import DeckOfCards from './DeckOfCards';
 
 export default function App(){
     return(
@@ -9,7 +8,6 @@ export default function App(){
             <RunStatus />
             <StatusOfTheDay />
             <PokerChip />
-            <DeckOfCards />
         </section>
     )
 }
