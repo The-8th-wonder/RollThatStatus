@@ -83,7 +83,7 @@ function Status() {
 
   // variables for status hover
   const [isShown, setIsShown] = useState(false);
-  const [hoverEnabled, setHoverEnabled] = useState(true);
+  const [hoverEnabled, setHoverEnabled] = useState(false);
 
   const [open, setOpen] = useState(false);
 
@@ -128,9 +128,9 @@ function Status() {
       {/* hover enable/disable toggle button */}
       <div>
         <button id="hover-button" onClick={() => {
-          const newHoverState = !hoverEnabled;
-          setHoverEnabled(newHoverState);
-          if (!newHoverState) setIsShown(false);
+          const newHoverState = hoverEnabled;
+          setHoverEnabled(!newHoverState);
+          if (newHoverState) setIsShown(false);
         }}>
           {hoverEnabled ? 
           ( 
