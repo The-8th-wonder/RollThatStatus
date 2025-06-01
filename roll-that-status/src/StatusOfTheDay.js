@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-    const text = "Hate something normal, like road construction";
+    const text = "Happy Pride Month!!!\nI love gay people 🥰🏳️‍🌈🏳️‍⚧️";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const[showBadge, setshowBadge] = React.useState(true);
