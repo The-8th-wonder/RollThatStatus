@@ -1,6 +1,7 @@
 import RunStatus from './Status';
 import StatusOfTheDay from './StatusOfTheDay';
 import PokerChip from './PokerChip';
+import Announcement from './Announcements';
 
 export default function App(){
     return(
@@ -8,6 +9,7 @@ export default function App(){
             <RunStatus />
             <StatusOfTheDay />
             <PokerChip />
+            <Announcement />
         </section>
     )
 }
