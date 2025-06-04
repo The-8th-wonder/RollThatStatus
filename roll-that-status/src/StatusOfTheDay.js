@@ -16,7 +16,8 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "Happy Pride Month!!!\nI love gay people 🥰🏳️‍🌈🏳️‍⚧️";
+  // Happy Pride Month!!!\nI love gay people 🥰🏳️‍🌈🏳️‍⚧️
+  const text = "New update coming soon. In the meantime:\nI see no purpose in continuing on";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
