@@ -24,38 +24,38 @@ function AnnouncementTab() {
     }
 
     return (
-        <>
+      <>
         <div id="alert-div">
           <button title="open alert" id="open-alert" onClick={toggleDrawer}>
             <img id="alert-open-img" src={AlertOpen} alt="open alert"/>
           </button>
         </div> 
-            <Drawer
-                open={isOpen}
-                onClose={toggleDrawer}
-                direction='top' 
-                size='10vh'
-                id="alert"
-                style={{
-                  marginTop: '2vh',
-                  width: '10vh',
-                  left: '70vh',
-                  backgroundColor: 'transparent',
-                  boxShadow: 'none',
-                }}
-            >
-              <div>
-                <article>
-                  <p id="alert-text">{text.split('\n').map((line, index) => (
-                        <React.Fragment key={index}>
-                          {line}
-                          <br />
-                        </React.Fragment>
-                      ))}</p>
-                </article>
-                <button title="close alert" id="close-alert" onClick={toggleDrawer}><img id="alert-close-img" src={Salute} alt="close alert"/></button>
-              </div>
-            </Drawer>
-        </>
+          <Drawer
+            open={isOpen}
+            onClose={toggleDrawer}
+            direction='top' 
+            size='10vh'
+            id="alert"
+            style={{
+              marginTop: '2vh',
+              width: '10vh',
+              left: '70vh',
+              backgroundColor: 'transparent',
+              boxShadow: 'none',
+            }}
+          >
+            <div>
+              <article>
+                <p id="alert-text">{text.split('\n').map((line, index) => (
+                  <React.Fragment key={index}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}</p>
+              </article>
+              <button title="close alert" id="close-alert" onClick={toggleDrawer}><img id="alert-close-img" src={Salute} alt="close alert"/></button>
+            </div>
+          </Drawer>
+      </>
     );
 }

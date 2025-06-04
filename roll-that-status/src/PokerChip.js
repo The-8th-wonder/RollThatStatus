@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PCImage from './imgs/pokerchip.png';
 import './PokerChip.css';
 import SecretImg from './imgs/smile-ur-on-camera-wink.png';
@@ -16,20 +16,20 @@ function PokerChip(){
   const[open, setOpen] = useState(false);
 
     return (
-        <>
+      <>
         <div>
-            <button id="pc-btn" onClick={() => setOpen(true)}>
-                <img id="pc-img" src={PCImage} alt=''/>
-            </button>
-            {open && (
-              <div id="popup">
-                <img id="secret-img" src={SecretImg} alt=''/>
-                <button id="awesome-btn" onClick={() => setOpen(false)}>
-                  <img id="skull" src={Skull} alt=''/>
-                </button>
-              </div>
-            )}
+          <button id="pc-btn" onClick={() => setOpen(true)}>
+            <img id="pc-img" src={PCImage} alt=''/>
+          </button>
+          {open && (
+            <div id="popup">
+              <img id="secret-img" src={SecretImg} alt=''/>
+              <button id="awesome-btn" onClick={() => setOpen(false)}>
+                <img id="skull" src={Skull} alt=''/>
+              </button>
+            </div>
+          )}
         </div>
-        </>
+      </>
     );
 }
