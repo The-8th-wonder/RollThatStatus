@@ -16,8 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  // Happy Pride Month!!!\nI love gay people 🥰🏳️‍🌈🏳️‍⚧️
-  const text = "New update coming soon. In the meantime:\nI see no purpose in continuing on";
+  const text = "I see no purpose in continuing on";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
