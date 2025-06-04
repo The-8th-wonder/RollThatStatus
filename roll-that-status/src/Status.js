@@ -84,6 +84,7 @@ function Status() {
 
   // variables for status hover
   const [isShown, setIsShown] = useState(false);
+
   const [hoverEnabled, setHoverEnabled] = useState(false);
 
   const [open, setOpen] = useState(false);
@@ -98,9 +99,8 @@ function Status() {
   // and now im gonna make it more gross cause im stoopid :(
   return (
     <div>
-
-      
       {/* main status */}
+      {/*  */}
       <div 
         onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
         onMouseLeave={() => { if (hoverEnabled) setIsShown(false)}}
@@ -113,8 +113,8 @@ function Status() {
         ))}</p>
       </div>
 
-
       {/* hover for main status */}
+      {/*  */}
       <div>
         {isShown && (
           <p id="hover">{randValue.split('\n').map((line, index) => (
@@ -125,8 +125,8 @@ function Status() {
         )}
       </div>
 
-
       {/* hover enable/disable toggle button */}
+      {/*  */}
       <div>
         <button id="hover-button" onClick={() => {
           const newHoverState = hoverEnabled;
@@ -150,31 +150,30 @@ function Status() {
         </button>
       </div>
 
-
       {/* randomize status button */}
+      {/*  */}
       <div>
         <button title="Click to roll a status!" id="dice-button" onClick={randomizeButton}>
           <img id="dice-image" src={DiceButton} alt="roll"/>
         </button>
       </div>
 
-
       {/* Deck of cards */}
+      {/*  */}
       <div>
         <button onClick={togglePopup} id="openButton"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
-            {open && (
-              <div className="popup">
-                <p id="list">
-                  Here is a list of all the statuses:
-                  {Object.entries(statusDict).map(([key, value]) => (
-                    <ol>{key}. {value}</ol>
-                  ))}
-                </p>
-                <button onClick={togglePopup} id="closeButton">Close</button> (I'm too lazy to make this look nice sry)
-              </div>
-            )}
+          {open && (
+            <div className="popup">
+              <p id="list">
+                Here is a list of all the statuses:
+                {Object.entries(statusDict).map(([key, value]) => (
+                  <ol>{key}. {value}</ol>
+                ))}
+              </p>
+              <button onClick={togglePopup} id="closeButton">Close</button> (I'm too lazy to make this look nice sry)
+            </div>
+          )}
       </div>
-
     </div>
   );
 };

@@ -17,48 +17,51 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Happy Pride Month!!!\nI love gay people 🥰🏳️‍🌈🏳️‍⚧️
-    const text = "New update coming soon. In the meantime:\nI see no purpose in continuing on";
+  const text = "New update coming soon. In the meantime:\nI see no purpose in continuing on";
 
-    const[isOpen, setIsOpen] = React.useState(false);
-    const[showBadge, setshowBadge] = React.useState(true);
+  const[isOpen, setIsOpen] = React.useState(false);
 
-    const toggleDrawer = () => {
-        setIsOpen((prevState) => !prevState);
-        setshowBadge(false);
-    }
+  const[showBadge, setshowBadge] = React.useState(true);
 
-    return (
-        <>
-        <div id="button-div">
-          <button title="Open status of the day" id="open-button" onClick={toggleDrawer}>
-            <img id="open-image" src={OpenImage} alt="open"/>
-          </button>
-          {showBadge && <span id="badge">1</span> }
-        </div> 
-            <Drawer
-                open={isOpen}
-                onClose={toggleDrawer}
-                direction='left'
-                size='50vh'
-                className="drawer"
-                style={{
-                  backgroundImage: `url(${DrawerImage})`,
-                  backgroundRepeat: 'no-repeat',
-                  boxShadow: 'none',
-                  border: 'none',
-                  outline: 'none'
-                }}
-            >
-              <div>
-                <button title="Close status of the day" id="close-button" onClick={toggleDrawer}><img id="close-image" src={CloseImage} alt="close"/></button>
-                <p id="text">{text.split('\n').map((line, index) => (
-                        <React.Fragment key={index}>
-                          {line}
-                          <br />
-                        </React.Fragment>
-                      ))}</p>
-              </div>
-            </Drawer>
-        </>
-    );
+  const toggleDrawer = () => {
+      setIsOpen((prevState) => !prevState);
+      setshowBadge(false);
+  }
+
+  return (
+    <>
+      <div id="button-div">
+        <button title="Open status of the day" id="open-button" onClick={toggleDrawer}>
+          <img id="open-image" src={OpenImage} alt="open"/>
+        </button>
+        {showBadge && <span id="badge">1</span> }
+      </div> 
+        <Drawer
+            open={isOpen}
+            onClose={toggleDrawer}
+            direction='left'
+            size='50vh'
+            className="drawer"
+            style={{
+              backgroundImage: `url(${DrawerImage})`,
+              backgroundRepeat: 'no-repeat',
+              boxShadow: 'none',
+              border: 'none',
+              outline: 'none'
+            }}
+        >
+          <div>
+            <button title="Close status of the day" id="close-button" onClick={toggleDrawer}>
+              <img id="close-image" src={CloseImage} alt="close"/>
+            </button>
+            <p id="text">{text.split('\n').map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))}</p>
+          </div>
+        </Drawer>
+    </>
+  );
 }
