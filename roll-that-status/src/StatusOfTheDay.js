@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "I see no purpose in continuing on";
+  const text = "I love being gay and non binary!";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
