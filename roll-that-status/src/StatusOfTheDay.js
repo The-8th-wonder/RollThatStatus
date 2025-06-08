@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "Tomorrow is a new day";
+  const text = "One step at a time\ncan\'t die yet, I made plans with people";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
