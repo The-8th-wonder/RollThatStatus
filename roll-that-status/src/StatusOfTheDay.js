@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "One step at a time\ncan\'t die yet, I made plans with people";
+  const text = "Can\'t die yet, I made plans with people\nhopefully people keep making plans with me";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
