@@ -52,7 +52,11 @@ function Status() {
       32 : 'Then you notice, that the current is\nrushing past you and fighting you.',
       33 : 'So swim with it, go with it.\nAnd you\'re there, you\'re at rest.',
       34 : 'I don\'t even have the will to live. Why would I\nhave the will to brush my teeth??',
-      35 : 'Does it need saying?'
+      35 : 'Does it need saying?',
+      36 : 'Oh, and I\nI wish that I could leave myself alone',
+      37 : 'Even in this garden of gardens, \nI am the god of the gaps',
+      38 : 'I am the demon of Sodom, \nI am the blood of an angel, \nThe fate of the fallen',
+      39 : 'Nobody knows where I came from, \nEven I have forgotten'
 
       // Also, I didn't ask 🫵😐
       //...but it is sad though, you're right
