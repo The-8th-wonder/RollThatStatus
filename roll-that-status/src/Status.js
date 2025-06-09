@@ -56,7 +56,10 @@ function Status() {
       36 : 'Oh, and I\nI wish that I could leave myself alone',
       37 : 'Even in this garden of gardens, \nI am the god of the gaps',
       38 : 'I am the demon of Sodom, \nI am the blood of an angel, \nThe fate of the fallen',
-      39 : 'Nobody knows where I came from, \nEven I have forgotten'
+      39 : 'Nobody knows where I came from, \nEven I have forgotten',
+      40 : 'What good is all this talk of wings \nwhen there is nothing left above',
+      41 : 'What was missing from those scriptures\n will be written in my blood',
+      42 : 'Turns out the gods we thought were dyin\'\n were just sharpening their blades' 
 
       // Also, I didn't ask 🫵😐
       //...but it is sad though, you're right
