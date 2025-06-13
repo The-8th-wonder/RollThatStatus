@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "Bye bye job, bye bye humanity\ncorporate america wants to kill us all with AI\nfuck the system";
+  const text = "New pfp coming NEVER";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
