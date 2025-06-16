@@ -60,7 +60,7 @@ function Status() {
       40 : 'What good is all this talk of wings \nwhen there is nothing left above',
       41 : 'What was missing from those scriptures\n will be written in my blood',
       42 : 'Turns out the gods we thought were dyin\'\n were just sharpening their blades',
-      43 : 'I was in love with the thought \nthat we were in love with eachother'
+      43 : 'I was in love with the thought \nthat we were in love with each other'
 
       // Also, I didn't ask 🫵😐
       //...but it is sad though, you're right
