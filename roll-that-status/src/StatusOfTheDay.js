@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "New pfp coming NEVER";
+  const text = "consistent dissapointment for almost 22 years now 🥳";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
