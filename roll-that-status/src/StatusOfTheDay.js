@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "consistent dissapointment for almost 22 years now 🥳";
+  const text = "consistent dissapointment for almost \n22 years now 🥳";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
