@@ -113,12 +113,14 @@ function Status() {
         onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
         onMouseLeave={() => { if (hoverEnabled) setIsShown(false)}}
       >
-        <p id="status">{randValue.split('\n').map((line, index) => (
-          <React.Fragment key={index}>
-            {line}
-            <br />
-          </React.Fragment>
-        ))}</p>
+        <div id="status-div">
+          <p id="status">{randValue.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}</p>
+        </div>
       </div>
 
       {/* hover for main status */}
@@ -127,7 +129,7 @@ function Status() {
         {isShown && (
           <p id="hover">{randValue.split('\n').map((line, index) => (
             <React.Fragment key={index}>
-              {line}
+              <span id="hover-text">{line}</span>
             </React.Fragment>
           ))}</p>
         )}
