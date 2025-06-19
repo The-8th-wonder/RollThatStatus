@@ -6,20 +6,20 @@
 }
 
 #button-div {
-    position: relative;
+    position: fixed;
     display: inline-block;
-    bottom: 87vh;
+    top: 20vh;
     margin-left: 5vh;
 }
 
 #open-button {
     border: none;
     background-color: transparent;
-    position: relative;
+    position: fixed;
 }
 
 #open-image {
-    position: relative;
+    position: fixed;
     height: 10vh;
 }
 
@@ -41,34 +41,34 @@
     font-family: 'Jqkas';
     font-size: larger;
     font-weight: 500;
-    position: relative;
+    position: fixed;
     align-items: center;
     text-align: center;
-    top: 3vh;
-    left: -5vh;
+    top: 23vh;
+    left: 11vh;
 }
 
 #close-button {
-    position: relative;
-    top: .2vh;
-    left: 33vh;
+    position: fixed;
+    top: 10vh;
+    left: 52vh;
     border: none;
     background-color: transparent;
 }
 
 #close-image {
-    position: relative;
+    position: fixed;
     height: 8vh;
 }
 
 #badge {
-    position: absolute;
-    top: 1vh;
-    right: 0.9vh;
+    position: fixed;
     background-color: red;
     color: white;
     border-radius: 50vh;
     padding: 0.222vh 0.667VH;
     font-size: 1.333vh;
+    top: 21vh;
+    left: 15vh;
 }
  

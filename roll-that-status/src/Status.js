@@ -19,19 +19,19 @@ function Status() {
   const statusDict = useMemo(() => {
     return {
       1  : 'a smelly smell that smells smelly',
-      2  : 'I know your soul is not tainted. \n Even though you\'ve been told so',
+      2  : 'I know your soul is not tainted. Even though you\'ve been told so',
       3  : 'getting drunk on boohooze and whine',
       4  : 'You get what you give, you reap what you sow',
-      5  : 'Drink Dr.Pepper,\n its a doctor, you can trust it\n😉',
+      5  : 'Drink Dr.Pepper, its a doctor, you can trust it\n😉',
       6  : 'The bar is 6ft under',
       7  : 'Rather be six feet under than be lonely',
-      8  : 'Laws can be broken,\n walk on the cieling',
+      8  : 'Laws can be broken, walk on the cieling',
       9  : 'I wish you knew how much I loved you',
       10 : 'Who will pray for Babylon?',
-      11 : 'Despite everything,\n it\'s still you',
+      11 : 'Despite everything, it\'s still you',
       12 : 'I ɐɯ ɐ ʍɐlʞᴉuƃ dɐɹɐpox',
       13 : '*sips juice*',
-      14 : 'I\'ll be the first to admit I\'m a lonely soul.\n And the last to admit I need a hand to hold',
+      14 : 'I\'ll be the first to admit I\'m a lonely soul. And the last to admit I need a hand to hold',
       15 : 'the walk back to the apartment is always quiet',
       16 : 'Don\'t lick the walls',
       17 : 'oh?',
@@ -39,28 +39,28 @@ function Status() {
       19 : '𝓉𝒽𝑒 𝓆𝓊𝒾𝑒𝓉 𝒸𝑜𝓂𝓅𝓇𝑒𝒽𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝓉𝒽𝑒 𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝒾𝓉 𝒶𝓁𝓁',
       20 : 'louder than gods revolver and twice as shiny',
       21 : 'before the devil knows youre dead',
-      22 : 'feeling like laying in the forest\n and letting the fungus and moss\n accept me as their own',
-      23 : 'Heading to rock bottom,\n you guys need anything?',
-      24 : 'I reap what I sow.\n I wonder if it will be a good harvest this year...',
-      25 : 'My daydream may be fake\nbut babe, you are too',
-      26 : 'Almond scented?👀\n That\'s my favorite🥰',
-      27 : 'When it all looks like heaven,\n but it feels like hell',
-      28 : 'Angel of death tell me\n when will your reign be done?',
-      29 : 'Memento mori,\n be mindful of death.',
+      22 : 'feeling like laying in the forest and letting the fungus and moss accept me as their own',
+      23 : 'Heading to rock bottom, you guys need anything?',
+      24 : 'I reap what I sow. I wonder if it will be a good harvest this year...',
+      25 : 'My daydream may be fake but babe, you are too',
+      26 : 'Almond scented?👀 That\'s my favorite🥰',
+      27 : 'When it all looks like heaven, but it feels like hell',
+      28 : 'Angel of death tell me when will your reign be done?',
+      29 : 'Memento mori, be mindful of death.',
       30 : 'I WILL learn the secrets of the universe, watch me.',
-      31 : 'It seems that even in Arcadia\n you walk beside me still',
-      32 : 'Then you notice, that the current is\n rushing past you and fighting you.',
-      33 : 'So swim with it, go with it.\n And you\'re there, you\'re at rest.',
-      34 : 'I don\'t even have the will to live. Why would I\n have the will to brush my teeth??',
+      31 : 'It seems that even in Arcadia you walk beside me still',
+      32 : 'Then you notice, that the current is rushing past you and fighting you.',
+      33 : 'So swim with it, go with it. And you\'re there, you\'re at rest.',
+      34 : 'I don\'t even have the will to live. Why would I have the will to brush my teeth??',
       35 : 'Does it need saying?',
-      36 : 'Oh, and I,\n I wish that I could leave myself alone',
-      37 : 'Even in this garden of gardens,\n I am the god of the gaps',
-      38 : 'I am the demon of Sodom,\n I am the blood of an angel,\n The fate of the fallen',
-      39 : 'Nobody knows where I came from,\n even I have forgotten',
-      40 : 'What good is all this talk of wings\n when there is nothing left above',
-      41 : 'What was missing from those scriptures\n will be written in my blood',
-      42 : 'Turns out the gods we thought were dyin\'\n were just sharpening their blades',
-      43 : 'I was in love with the thought\n that we were in love with each other'
+      36 : 'Oh, and I, I wish that I could leave myself alone',
+      37 : 'Even in this garden of gardens, I am the god of the gaps',
+      38 : 'I am the demon of Sodom, I am the blood of an angel, The fate of the fallen',
+      39 : 'Nobody knows where I came from, even I have forgotten',
+      40 : 'What good is all this talk of wings when there is nothing left above',
+      41 : 'What was missing from those scriptures will be written in my blood',
+      42 : 'Turns out the gods we thought were dyin\' were just sharpening their blades',
+      43 : 'I was in love with the thought that we were in love with each other'
 
       // Also, I didn't ask 🫵😐
       //...but it is sad though, you're right
@@ -113,12 +113,12 @@ function Status() {
         onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
         onMouseLeave={() => { if (hoverEnabled) setIsShown(false)}}
       >
-        <p id="status">{randValue.split('\n').map((line, index) => (
+        <div id="status">{randValue.split('\n').map((line, index) => (
           <React.Fragment key={index}>
             {line}
             <br />
           </React.Fragment>
-        ))}</p>
+        ))}</div>
       </div>
 
       {/* hover for main status */}
@@ -127,7 +127,7 @@ function Status() {
         {isShown && (
           <p id="hover">{randValue.split('\n').map((line, index) => (
             <React.Fragment key={index}>
-              {line}
+              <span id="hover-text">{line}</span>
             </React.Fragment>
           ))}</p>
         )}

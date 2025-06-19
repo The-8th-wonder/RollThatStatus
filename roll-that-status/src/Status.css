@@ -1,23 +1,23 @@
 #status {
-  /* position: relative; */
   font-family: 'Lov';
   text-align: center;
-  margin: 0;
   position: relative;
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
-  bottom: 2vh;
-  right: 1.5vh;
   font-size: 3.5vh;
+  width: 55vh;
+  top: 70.5vh;
+  left: 71.5vh;
+  word-spacing: .5vh;
 }
 
 #dice-button {
   border: none;
   background-color: transparent;
-  position: relative;
-  bottom: 20vh;
-  left: 170vh;
+  position: fixed;
+  bottom: 23vh;
+  right: 20vh;
 }
 
 #dice-image {
@@ -26,26 +26,29 @@
 }
 
 #hover {
-  position: relative;
+  position: fixed;
   background-color: white;
   width: 40vh;
   text-align: center;
-  font-family: serif;
   border-style: solid; 
   border-color: black;
   border-width: .4vh;
   border-radius: 1vh;
-  top: 0vh;
-  left: 75vh;
+  bottom: 5vh;
+  left: 78vh;
 }
 
 #hover-button {
-  position: relative;
+  position: fixed;
   float: right;
-  bottom: 5vh;
   border: none;
   background: transparent;
-  right: 20vh;
+  bottom: 1vh;
+  right: 35vh;
+}
+
+#hover-text {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #close-img {
@@ -80,12 +83,13 @@
   margin-right: 5vh;
 }
 
+/* deck of cards */
 #openButton {
   background: transparent;
   border: none;
-  position: relative;
+  position: fixed;
   float: right;
-  bottom: 90vh;
+  top: 10vh;
   right: 10vh;
 }
 
