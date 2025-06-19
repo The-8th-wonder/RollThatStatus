@@ -1,18 +1,15 @@
-#status-div {
-  position: fixed;
-  bottom: 30vh;
-  left: 70vh;
-}
-
 #status {
   font-family: 'Lov';
   text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
   color: rgb(255, 255, 255);
   font-size: 3.5vh;
-  position: fixed;
-  float: inline-start;
-  bottom: auto;
-  left: auto;
+  width: 55vh;
+  top: 70.5vh;
+  left: 71.5vh;
+  word-spacing: .5vh;
 }
 
 #dice-button {
@@ -33,13 +30,12 @@
   background-color: white;
   width: 40vh;
   text-align: center;
-  font-family: serif;
   border-style: solid; 
   border-color: black;
   border-width: .4vh;
   border-radius: 1vh;
-  bottom: 10vh;
-  left: 50vh;
+  bottom: 5vh;
+  left: 78vh;
 }
 
 #hover-button {
@@ -52,7 +48,7 @@
 }
 
 #hover-text {
-  font-family: 'Times New Roman', Times, serif !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #close-img {
