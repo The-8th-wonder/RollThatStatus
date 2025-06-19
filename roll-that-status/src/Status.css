@@ -63,13 +63,21 @@
   border-style: solid;
   transform: translate(-50vh, -50vh);
   background-color: white;
-  width: 55vh;
+  width: 56vh;
 }
 
 #list {
   overflow-y: scroll;
   width: 55vh;
   height: 50vh;
+}
+
+#list-title {
+  margin-left: 1vh;
+}
+
+#listlist {
+  margin-right: 5vh;
 }
 
 #openButton {
