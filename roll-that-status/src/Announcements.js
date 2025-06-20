@@ -3,7 +3,7 @@ import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
 import './Announcements.css';
 import AlertOpen from './imgs/alert.gif';
-import Salute from './imgs/salute.png';
+import CloseAlert from './imgs/Gilbert_Baker_Rainbow_Blob.png';
 
 export default function Announcement(){
   return (
@@ -53,7 +53,7 @@ function AnnouncementTab() {
                   </React.Fragment>
                 ))}</p>
               </article>
-              <button title="close alert" id="close-alert" onClick={toggleDrawer}><img id="alert-close-img" src={Salute} alt="close alert"/></button>
+              <button title="close alert" id="close-alert" onClick={toggleDrawer}><img id="alert-close-img" src={CloseAlert} alt="close alert"/></button>
             </div>
           </Drawer>
       </>
