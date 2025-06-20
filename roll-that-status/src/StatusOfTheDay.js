@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "consistent dissapointment for almost \n22 years now 🥳";
+  const text = "I love my stobotnik fandom\n enough to make it my status";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
