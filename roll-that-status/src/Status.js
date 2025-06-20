@@ -169,7 +169,7 @@ function Status() {
       {/* Deck of cards */}
       {/*  */}
       <div>
-        <button onClick={togglePopup} id="openButton"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
+        <button onClick={togglePopup} title="open status list" id="openButton"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
           {open && (
             <div className="popup">
               <p id="list">
@@ -178,7 +178,7 @@ function Status() {
                   <ol id="listlist">{key}. {value}</ol>
                 ))}
               </p>
-              <button onClick={togglePopup} id="closeButton">Close</button> (I'm too lazy to make this look nice sry)
+              <button onClick={togglePopup} title="close" id="closeButton">Close</button> (I'm too lazy to make this look nice sry)
             </div>
           )}
       </div>

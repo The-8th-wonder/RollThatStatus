@@ -18,13 +18,13 @@ function PokerChip(){
     return (
       <>
         <div>
-          <button id="pc-btn" onClick={() => setOpen(true)}>
+          <button id="pc-btn" title="open secret" onClick={() => setOpen(true)}>
             <img id="pc-img" src={PCImage} alt=''/>
           </button>
           {open && (
             <div id="popup">
               <img id="secret-img" src={SecretImg} alt=''/>
-              <button id="awesome-btn" onClick={() => setOpen(false)}>
+              <button id="awesome-btn" title="wasn't that awesome?" onClick={() => setOpen(false)}>
                 <img id="skull" src={Skull} alt=''/>
               </button>
             </div>
