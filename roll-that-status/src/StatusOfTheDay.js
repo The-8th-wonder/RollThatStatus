@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "I love my stobotnik fandom\n enough to make it my status";
+  const text = "If you are not panicked then you are not thinking";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
