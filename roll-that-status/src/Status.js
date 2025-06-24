@@ -60,7 +60,9 @@ function Status() {
       40 : 'What good is all this talk of wings when there is nothing left above',
       41 : 'What was missing from those scriptures will be written in my blood',
       42 : 'Turns out the gods we thought were dyin\' were just sharpening their blades',
-      43 : 'I was in love with the thought that we were in love with each other'
+      43 : 'I was in love with the thought that we were in love with each other',
+      44 : 'Seven inches of satanic panic',
+      45 : 'The future is a foreign land'
 
       // Also, I didn't ask 🫵😐
       //...but it is sad though, you're right
