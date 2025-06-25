@@ -22,15 +22,15 @@ function Tab() {
 
   // const[showBadge, setshowBadge] = React.useState(true);
 
-  // const toggleDrawer = () => {
-  //     setIsOpen((prevState) => !prevState);
+   const toggleDrawer = () => {
+       setIsOpen((prevState) => !prevState);
       // setshowBadge(false);
-  // }
+   }
 
   return (
     <>
       <div id="button-div">
-        <button title="Open status of the day" id="open-button" > {/* onClick={toggleDrawer} */}
+        <button title="Open status of the day" id="open-button" onClick={toggleDrawer}> 
           <img id="open-image" src={OpenImage} alt="open"/>
         </button>
     {/* {showBadge && <span id="badge">1</span> } */}
@@ -38,7 +38,7 @@ function Tab() {
       </div> 
         <Drawer
             open={isOpen}
-            ? onClose={toggleDrawer}
+            onClose={toggleDrawer}
             direction='left'
             size='50vh'
             className="drawer"
@@ -51,7 +51,7 @@ function Tab() {
             }}
         >
           <div>
-            <button title="Close status of the day" id="close-button" > {/* onClick={toggleDrawer} */} 
+            <button title="Close status of the day" id="close-button" onClick={toggleDrawer}>
               <img id="close-image" src={CloseImage} alt="close"/>
             </button>
             <p id="text">{text.split('\n').map((line, index) => (
