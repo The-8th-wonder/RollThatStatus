@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "I am spiraling out of control\nshould i wish i was normal?";
+  const text = "You can still enjoy the good memories\neven if your life has moved on";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
