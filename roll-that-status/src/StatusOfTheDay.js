@@ -16,7 +16,7 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "You can still enjoy the good memories\neven if your life has moved on";
+  const text = "[none today, move along]";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
@@ -33,7 +33,7 @@ function Tab() {
         <button title="Open status of the day" id="open-button" onClick={toggleDrawer}>
           <img id="open-image" src={OpenImage} alt="open"/>
         </button>
-        {showBadge && <span id="badge">1</span> }
+        // {showBadge && <span id="badge">1</span> }
       </div> 
         <Drawer
             open={isOpen}
