@@ -22,10 +22,10 @@ function Tab() {
 
   // const[showBadge, setshowBadge] = React.useState(true);
 
-  const toggleDrawer = () => {
-      setIsOpen((prevState) => !prevState);
+  // const toggleDrawer = () => {
+  //     setIsOpen((prevState) => !prevState);
       // setshowBadge(false);
-  }
+  // }
 
   return (
     <>
@@ -50,7 +50,7 @@ function Tab() {
             }}
         >
           <div>
-            <button title="Close status of the day" id="close-button" onClick={toggleDrawer}>
+            <button title="Close status of the day" id="close-button" > //onClick={toggleDrawer}
               <img id="close-image" src={CloseImage} alt="close"/>
             </button>
             <p id="text">{text.split('\n').map((line, index) => (
