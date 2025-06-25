@@ -20,11 +20,11 @@ function Tab() {
 
   const[isOpen, setIsOpen] = React.useState(false);
 
-  const[showBadge, setshowBadge] = React.useState(true);
+  // const[showBadge, setshowBadge] = React.useState(true);
 
   const toggleDrawer = () => {
       setIsOpen((prevState) => !prevState);
-      setshowBadge(false);
+      // setshowBadge(false);
   }
 
   return (
