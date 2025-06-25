@@ -38,7 +38,7 @@ function Tab() {
       </div> 
         <Drawer
             open={isOpen}
-           {/* onClose={toggleDrawer} */}
+            ? onClose={toggleDrawer}
             direction='left'
             size='50vh'
             className="drawer"
