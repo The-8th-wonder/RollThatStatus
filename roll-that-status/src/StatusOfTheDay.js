@@ -30,14 +30,14 @@ function Tab() {
   return (
     <>
       <div id="button-div">
-        <button title="Open status of the day" id="open-button" onClick={toggleDrawer}>
+        <button title="Open status of the day" id="open-button" > //onClick={toggleDrawer}
           <img id="open-image" src={OpenImage} alt="open"/>
         </button>
         // {showBadge && <span id="badge">1</span> }
       </div> 
         <Drawer
             open={isOpen}
-            onClose={toggleDrawer}
+            // onClose={toggleDrawer}
             direction='left'
             size='50vh'
             className="drawer"
