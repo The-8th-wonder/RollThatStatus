@@ -16,16 +16,17 @@ export default function StatusOfTheDay(){
 
 function Tab() {
 
-  const text = "[none today, move along]";
+  // Status of the day text
+  const text = "I care too much and yet\nI don't care enough";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
-  // const[showBadge, setshowBadge] = React.useState(true);
+  const[showBadge, setshowBadge] = React.useState(true); //comment out to de-activate status of the day
 
-   const toggleDrawer = () => {
+  const toggleDrawer = () => {
        setIsOpen((prevState) => !prevState);
-      // setshowBadge(false);
-   }
+       setshowBadge(false); //comment out to de-activate status of the day
+  }
 
   return (
     <>
@@ -33,8 +34,8 @@ function Tab() {
         <button title="Open status of the day" id="open-button" onClick={toggleDrawer}> 
           <img id="open-image" src={OpenImage} alt="open"/>
         </button>
-    {/* {showBadge && <span id="badge">1</span> } */}
-        
+        {showBadge && <span id="badge">1</span> } 
+        {/* ^comment out to de-activate status of the day */}
       </div> 
         <Drawer
             open={isOpen}
