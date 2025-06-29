@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "I care too much and yet\nI don't care enough";
+  const text = "look i know i'm not the favorite\nbut c'mon guys";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
