@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "Happy Pride Month!!!\nI love gay people 🥰🏳️‍🌈🏳️‍⚧️";
+    const text = "rip gay month\nig we're straight now 😔🏁 \(/j\)";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
