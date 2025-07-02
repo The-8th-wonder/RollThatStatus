@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "i'm on my first vacay! 🥳\n🏖️";
+  const text = "i fucking love being anonymous\nback online strangers, back!";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
