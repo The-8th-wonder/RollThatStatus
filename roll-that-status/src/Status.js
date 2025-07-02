@@ -62,7 +62,8 @@ function Status() {
       42 : 'Turns out the gods we thought were dyin\' were just sharpening their blades',
       43 : 'I was in love with the thought that we were in love with each other',
       44 : 'Seven inches of satanic panic',
-      45 : 'The future is a foreign land'
+      45 : 'The future is a foreign land',
+      46 : 'The beatings will continue until moral improves'
 
       // Also, I didn't ask 🫵😐
       //...but it is sad though, you're right
