@@ -71,7 +71,7 @@ function Status() {
   // variables for status hover
   const [isShown, setIsShown] = useState(false);
 
-  const [hoverEnabled, setHoverEnabled] = useState(false);
+  const [hoverEnabled, setHoverEnabled] = useState(true);
 
   const [open, setOpen] = useState(false);
 
