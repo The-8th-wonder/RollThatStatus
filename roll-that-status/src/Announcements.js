@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "rip gay month\nig we're straight now 😔🏁 \(/j\)";
+    const text = "new electron update coming some day";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
