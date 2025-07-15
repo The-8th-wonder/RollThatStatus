@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "I want to grow a beard so bad\none that rivals gandalf";
+  const text = "But maybe life on Earth could be heaven?\n Doesn\'t just the thought of it make it worth the try?";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
