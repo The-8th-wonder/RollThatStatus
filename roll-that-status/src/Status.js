@@ -38,7 +38,8 @@ function Status() {
       18 : 'I WILL learn the secrets of the universe, watch me.',
       19 : 'I don\'t even have the will to live. Why would I have the will to brush my teeth??',
       20 : 'Does it need saying?',
-      21 : 'The beatings will continue until moral improves'
+      21 : 'The beatings will continue until moral improves',
+      22 : 'But maybe life on Earth could be heaven? Doesn\'t just the thought of it make it worth the try?'
 
       // Also, I didn't ask 🫵😐
       //...but it is sad though, you're right
