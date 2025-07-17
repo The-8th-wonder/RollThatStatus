@@ -23,7 +23,7 @@ function PokerChip(){
           </button>
           {open && (
             <div id="popup">
-              <img id="secret-img" src={SecretImg} alt=''/>
+              <img id="secret-img" src={SecretImg} alt='' title="should I start putting links here to my writing or images of my art?"/>
               <button id="awesome-btn" title="wasn't that awesome?" onClick={() => setOpen(false)}>
                 <img id="skull" src={Skull} alt=''/>
               </button>
