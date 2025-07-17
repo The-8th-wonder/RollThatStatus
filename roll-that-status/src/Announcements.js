@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "new electron update coming some day";
+    const text = "\'Twas brillig, and the slithy toves\nDid gyre and gimble in the wabe;\nAll mimsy were the borogoves,\nAnd the mome raths outgrabe. ";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
