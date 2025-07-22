@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "\'Twas brillig, and the slithy toves\nDid gyre and gimble in the wabe;\nAll mimsy were the borogoves,\nAnd the mome raths outgrabe. ";
+    const text = "Rest in peace, oh Prince of Darkness.\nMay you rule Hell with an iron fist";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
