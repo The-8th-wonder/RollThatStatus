@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "Rest in peace, oh Prince of Darkness.\nMay you rule Hell with an iron fist";
+    const text = "This is on hiatus :\(";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
