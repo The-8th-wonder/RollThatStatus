@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "This is on hiatus cause i got addicted to balatro :\(";
+    const text = "Updates coming soon!!!";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
