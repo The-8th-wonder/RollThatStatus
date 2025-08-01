@@ -7,5 +7,4 @@ I use vercel to deploy.
 
 ---  
 
-The scope of this project is infinite and immeasurable, so enjoy the ride!  
-If you recognize any of my statuses, then you're pretty cool :)
+The "Status of the Day!" and the "Announcement" get updated often, make sure to come back and check in to see what they are!
