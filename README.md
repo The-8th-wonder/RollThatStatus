@@ -7,4 +7,6 @@ I use vercel to deploy.
 
 ---  
 
-The "Status of the Day!" and the "Announcement" get updated often, make sure to come back and check in to see what they are!
+The "Status of the Day!" and the "Announcement" get updated often, make sure to come back and check in to see what they are!  
+
+Please note: the announcements its not always up, as the name suggests, its only shown when there's an announcment!
