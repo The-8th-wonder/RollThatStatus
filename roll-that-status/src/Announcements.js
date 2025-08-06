@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "Updates coming soon!!!";
+    const text = "i love lying apparently 💀 one day...one day.";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
