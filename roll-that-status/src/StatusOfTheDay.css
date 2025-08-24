@@ -1,8 +1,19 @@
 @font-face {
-  font-family: 'Jqkas';
-  src: url('fonts/JqkasWild-w1YD6.eot'), url('fonts/JqkasWild-w1YD6.ttf') format('truetype'), url('fonts/JqkasWild-w1YD6.svg') format('svg');
+  font-family: 'Austral';
+  src: url('fonts/Austral-Slab_Blur-Regular.eot'), url('fonts/Austral-Slab_Blur-Regular.ttf') format('truetype'), url('fonts/Austral-Slab_Blur-Regular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+
+#text {
+    font-family: 'Austral';
+    font-size: larger;
+    font-weight: 500;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    top: 23vh;
+    left: 15vh;
 }
 
 #button-div {
@@ -35,17 +46,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#text {
-    font-family: 'Jqkas';
-    font-size: larger;
-    font-weight: 500;
-    position: fixed;
-    align-items: center;
-    text-align: center;
-    top: 23vh;
-    left: 15vh;
 }
 
 #close-button {

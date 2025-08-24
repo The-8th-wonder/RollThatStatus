@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'Imprint';
+  src: url('fonts/ImprintMTShadowRegular.eot'), url('fonts/ImprintMTShadowRegular.ttf') format('truetype'), url('fonts/ImprintMTShadowRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #status {
-  font-family: 'Lov';
+  font-family: 'Imprint';
   text-align: center;
   position: relative;
   justify-content: center;
