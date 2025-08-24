@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "\n\nelectron update coming one day...";
+  const text = "actions will ALWAYS be louder than words\nalways";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
