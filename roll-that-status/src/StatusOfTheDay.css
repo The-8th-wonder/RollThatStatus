@@ -5,6 +5,17 @@
   font-style: normal;
 }
 
+#text {
+    font-family: 'Jqkas';
+    font-size: larger;
+    font-weight: 500;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    top: 23vh;
+    left: 15vh;
+}
+
 #button-div {
     position: fixed;
     display: inline-block;
@@ -35,17 +46,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#text {
-    font-family: 'Jqkas';
-    font-size: larger;
-    font-weight: 500;
-    position: fixed;
-    align-items: center;
-    text-align: center;
-    top: 23vh;
-    left: 15vh;
 }
 
 #close-button {

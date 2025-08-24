@@ -1,8 +1,14 @@
 @font-face {
-  font-family: 'AlertFont';
-  src: url('fonts/OPTIAlert-Medium.eot'), url('fonts/OPTIAlert-Medium.ttf') format('truetype'), url('fonts/OPTIAlert-Medium.svg') format('svg');
+  font-family: 'Harlow';
+  src: url('fonts/Harlow-Solid-Italic.eot'), url('fonts/Harlow-Solid-Italic.ttf') format('truetype'), url('fonts/Harlow-Solid-Italic.svg') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+
+#alert-text {
+    text-align: center;
+    font-family: 'Harlow';
+    font-size: xx-large;
 }
 
 #open-alert {
@@ -32,12 +38,6 @@
 
 #alert-close-img {
     height: 5vh;
-}
-
-#alert-text {
-    text-align: center;
-    font-family: 'AlertFont';
-    font-size: xx-large;
 }
 
 /** Stolen from interwebs 😔 
