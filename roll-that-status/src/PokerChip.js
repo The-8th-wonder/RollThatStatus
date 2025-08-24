@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import PCImage from './imgs/pokerchip.png';
+import PCImage from './imgs/poker-chip/pokerchip.png';
 import './PokerChip.css';
-import SecretImg from './imgs/smile-ur-on-camera-wink.png';
-import Skull from './imgs/desperate-times.png';
+import SecretImg from './imgs/poker-chip/smile-ur-on-camera-wink.png';
+import Skull from './imgs/poker-chip/desperate-times.png';
 
 export default function PokerChipFunc(){
   return (
