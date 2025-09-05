@@ -39,9 +39,11 @@ function Status() {
       19 : 'I don\'t even have the will to live. Why would I have the will to brush my teeth??',
       20 : 'Does it need saying?',
       21 : 'The beatings will continue until moral improves',
-      22 : 'But maybe life on Earth could be heaven. Doesn\'t just the thought of it make it worth the try?'
+      22 : 'But maybe life on Earth could be heaven. Doesn\'t just the thought of it make it worth the try?',
+      23 : 'Don\'t panic!',
+      24 : 'Keep on keeping on 👍'
 
-      // Also, I didn't ask 🫵😐
+      // Also, I didn't ask 🫵😐 I don't need to explain myself to you
       //...but it is sad though, you're right
       // yes, a majority of these are song lyrics, what of it?
     };
