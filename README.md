@@ -13,7 +13,7 @@ https://roll-that-status.vercel.app
 RollThatStatus is a website that displays a random discord status, along with features to;  
 
 - Re-roll the main displayed discord status
-- A tab for showing a showcased "Stats of the Day"
+- A tab for showing a showcased "Status of the Day"
 - An announcements drop down that is only available when the creator(me) has an announcement to share
   - Announcements can be things like wishing everyone a happy holiday!
 - A button that shows a list of all the available main statuses that can be rolled
