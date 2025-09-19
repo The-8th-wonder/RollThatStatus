@@ -68,4 +68,4 @@ I will try to update the list regularly whenever there are changes.
 - HTML
 - [React Library](https://react.dev) ~ JavaScript library for front end development
 - [Vercel](https://vercel.com/home) ~ a website that lets you deploy your websites for free
-- [Tailwind](https://tailwindcss.com/) ~ CSS library for managing website sizing to display size (i.e., handling different desktop screen sizes and mobile size)
+- [Tailwind](https://tailwindcss.com/) ~ CSS framework for managing website sizing to display size (i.e., handling different desktop screen sizes and mobile size)
