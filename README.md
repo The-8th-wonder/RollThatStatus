@@ -20,7 +20,7 @@ RollThatStatus is a website that displays a random discord status, along with fe
 - A secret button that displays a mystery text box or image
 - With the possibility of more to come! (no promises though)  
 
-You can check out the website [here!](https://roll-that-status.vercel.app).  
+You can check out the website [here](https://roll-that-status.vercel.app)!  
 
 ---  
 
