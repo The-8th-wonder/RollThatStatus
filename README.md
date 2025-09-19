@@ -57,7 +57,6 @@ Make sure to check back in and stay tuned for updates!
 ## What did I use to make this?  
 
 This entire project I did using the React library, and Vercel to deploy the website.  
-In the code itself, I used a few different packages.  
 
 Below is a list of everything I've used, along with a small description on what it was used for.  
 I will try to update the list regularly whenever there are changes.  
