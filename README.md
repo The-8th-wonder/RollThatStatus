@@ -36,10 +36,10 @@ I noticed, as I used discord, that I would change my custom status often. Someti
 I had a set list of status that I really liked and rotated through, and would also change them depending on the day.  
 Eventually, I got tired of constantly changing my status or not knowing what to change it to, especially since I had a select few that I knew I liked.  
 
-So, my solution was to create a website with all the discord statuses I use, and just have the website link as my permanent status (which is what my discord status is now!).  
+So, my solution was to create a website with all the discord statuses I use, and just have the website link as my permanent status (which is what my discord status is now!)  
 
 Originally, when I first made the website, it was just the main status and nothing else.  
-But, as I continued to work on it, I came up with more and more ideas, and the scope has creeped from there!.  
+But, as I continued to work on it, I came up with more and more ideas, and the scope has creeped from there!  
 
 The project is entirely a personal project that I work on for fun in my free time.  
 I also have custom created quite a few of the images/buttons/backgrounds.  
