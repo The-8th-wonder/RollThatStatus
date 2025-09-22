@@ -9,6 +9,7 @@
     text-align: center;
     font-family: 'Harlow';
     font-size: xx-large;
+    text-wrap: wrap;
 }
 
 #open-alert {

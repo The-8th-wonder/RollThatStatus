@@ -17,6 +17,7 @@
   top: 70.5vh;
   left: 71.5vh;
   word-spacing: .5vh;
+  text-wrap: wrap;
 }
 
 #dice-button {
@@ -43,6 +44,7 @@
   border-radius: 1vh;
   bottom: 5vh;
   left: 78vh;
+  text-wrap: wrap;
 }
 
 #hover-button {

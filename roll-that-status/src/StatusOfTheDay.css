@@ -14,6 +14,7 @@
     text-align: center;
     top: 23vh;
     left: 15vh;
+    text-wrap: wrap;
 }
 
 #button-div {
