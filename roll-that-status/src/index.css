@@ -5,8 +5,9 @@
 body {
   position: fixed;
   background-image: url('imgs/better-background.png');
-  background-position-x: fixed;
-  background-position-x: center;
-  background-size: cover;
+  background-origin: border-box;
+  background-size: 100%;
+  background-position: top;
   background-repeat: no-repeat;
+  background-color: #5c3624;
 }
