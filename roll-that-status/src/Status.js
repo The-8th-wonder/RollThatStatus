@@ -41,7 +41,9 @@ function Status() {
       21 : 'The beatings will continue until moral improves',
       22 : 'But maybe life on Earth could be heaven. Doesn\'t just the thought of it make it worth the try?',
       23 : 'Don\'t panic!',
-      24 : 'Keep on keeping on 👍'
+      24 : 'Keep on keeping on 👍',
+      25 : 'god Anteros, hear my plea',
+      26 : 'That\'s the spirit! ☔'
 
       // Also, I didn't ask 🫵😐 I don't need to explain myself to you
       //...but it is sad though, you're right
