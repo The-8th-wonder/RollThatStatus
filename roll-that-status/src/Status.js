@@ -90,14 +90,15 @@ function Status() {
     <div>
       {/* main status */}
       {/*  */}
-      <div 
+      <div class="p-8" 
         onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
         onMouseLeave={() => { if (hoverEnabled) setIsShown(false)}}
       >
-        <div id="status">{randValue.split('\n').map((line, index) => (
+        <div>{randValue.split('\n').map((line, index) => (
           <React.Fragment key={index}>
-            {line}
-            <br />
+            <div class="mt-2 text-center sm:text-left" id="status">
+              {line}
+            </div>
           </React.Fragment>
         ))}</div>
       </div>

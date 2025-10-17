@@ -15,6 +15,7 @@
     top: 23vh;
     left: 15vh;
     text-wrap: wrap;
+    aspect-ratio: auto;
 }
 
 #button-div {
@@ -22,17 +23,20 @@
     display: inline-block;
     top: 20vh;
     margin-left: 5vh;
+    aspect-ratio: auto;
 }
 
 #open-button {
     border: none;
     background-color: transparent;
     position: fixed;
+    aspect-ratio: auto;
 }
 
 #open-image {
     position: fixed;
     height: 10vh;
+    aspect-ratio: auto;
 }
 
 .drawer {
@@ -47,6 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    aspect-ratio: auto;
 }
 
 #close-button {
@@ -55,11 +60,13 @@
     left: 52vh;
     border: none;
     background-color: transparent;
+    aspect-ratio: auto;
 }
 
 #close-image {
     position: fixed;
     height: 8vh;
+    aspect-ratio: auto;
 }
 
 #badge {
@@ -71,5 +78,6 @@
     font-size: 1.333vh;
     top: 21vh;
     left: 15vh;
+    aspect-ratio: auto;
 }
  

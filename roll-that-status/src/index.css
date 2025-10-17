@@ -10,4 +10,5 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-color: #5c3624 ;
+  aspect-ratio: auto;
 }
