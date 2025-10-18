@@ -72,6 +72,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#hover-btn-text {
+  position: relative;
+  bottom: 3vh;
+}
+
 #close-img {
   aspect-ratio: auto;
   height: 5vh;

@@ -128,13 +128,13 @@ function Status() {
             <>
               <img id="open-img" src={openImg} alt="Disable Hover"/>
               <br />
-              <span>disable hover</span> {/* close enough 😭 */}
+              <div id="hover-btn-text">disable hover</div> {/* close enough 😭 */}
             </> 
             ) : ( 
             <>
               <img id="close-img" src={closeImg} alt="Enable Hover"/> 
               <br />
-              <span>enable hover</span>
+              <div id="hover-btn-text">enable hover</div>
             </>
           )} 
         </button>
