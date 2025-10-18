@@ -52,15 +52,19 @@ function Tab() {
             }}
         >
           <div>
-            <button title="Close status of the day" id="close-button" onClick={toggleDrawer}>
-              <img id="close-image" src={CloseImage} alt="close"/>
-            </button>
-            <p id="text">{text.split('\n').map((line, index) => (
-              <React.Fragment key={index}>
-                {line}
-                <br />
-              </React.Fragment>
-            ))}</p>
+            <div>
+              <button title="Close status of the day" id="close-button" onClick={toggleDrawer}>
+                <img id="close-image" src={CloseImage} alt="close"/>
+              </button>
+            </div>
+            <div>
+              <p id="text">{text.split('\n').map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}</p>
+            </div>
           </div>
         </Drawer>
     </>

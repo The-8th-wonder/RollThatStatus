@@ -97,7 +97,7 @@ function Status() {
         <div>{randValue.split('\n').map((line, index) => (
           <React.Fragment key={index}>
             <div id="status">
-              {line}
+              <p>{line}</p>
             </div>
           </React.Fragment>
         ))}</div>

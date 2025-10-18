@@ -9,11 +9,11 @@
     font-family: 'Austral';
     font-size: larger;
     font-weight: 500;
-    position: fixed;
+    position: relative;
     align-items: center;
     text-align: center;
-    top: 23vh;
-    left: 15vh;
+    top: 6vh;
+    right: 4vh;
     text-wrap: wrap;
     aspect-ratio: auto;
 }
@@ -29,7 +29,7 @@
 #open-button {
     border: none;
     background-color: transparent;
-    position: fixed;
+    position: relative;
     aspect-ratio: auto;
 }
 
@@ -55,9 +55,9 @@
 }
 
 #close-button {
-    position: fixed;
-    top: 10vh;
-    left: 52vh;
+    position: relative;
+    bottom: 11vh;
+    left: 35vh;
     border: none;
     background-color: transparent;
     aspect-ratio: auto;
@@ -76,8 +76,8 @@
     border-radius: 50vh;
     padding: 0.222vh 0.667VH;
     font-size: 1.333vh;
-    top: 21vh;
-    left: 15vh;
+    top: 22vh;
+    left: 14vh;
     aspect-ratio: auto;
 }
  
