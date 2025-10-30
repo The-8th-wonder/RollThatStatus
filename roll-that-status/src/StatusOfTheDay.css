@@ -9,11 +9,13 @@
     font-family: 'Austral';
     font-size: larger;
     font-weight: 500;
-    position: fixed;
+    position: relative;
     align-items: center;
     text-align: center;
-    top: 23vh;
-    left: 15vh;
+    top: 6vh;
+    right: 4vh;
+    text-wrap: wrap;
+    aspect-ratio: auto;
 }
 
 #button-div {
@@ -21,17 +23,20 @@
     display: inline-block;
     top: 20vh;
     margin-left: 5vh;
+    aspect-ratio: auto;
 }
 
 #open-button {
     border: none;
     background-color: transparent;
-    position: fixed;
+    position: relative;
+    aspect-ratio: auto;
 }
 
 #open-image {
     position: fixed;
     height: 10vh;
+    aspect-ratio: auto;
 }
 
 .drawer {
@@ -46,19 +51,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    aspect-ratio: auto;
 }
 
 #close-button {
-    position: fixed;
-    top: 10vh;
-    left: 52vh;
+    position: relative;
+    bottom: 11vh;
+    left: 35vh;
     border: none;
     background-color: transparent;
+    aspect-ratio: auto;
 }
 
 #close-image {
     position: fixed;
     height: 8vh;
+    aspect-ratio: auto;
 }
 
 #badge {
@@ -68,7 +76,8 @@
     border-radius: 50vh;
     padding: 0.222vh 0.667VH;
     font-size: 1.333vh;
-    top: 21vh;
-    left: 15vh;
+    top: 22vh;
+    left: 14vh;
+    aspect-ratio: auto;
 }
  

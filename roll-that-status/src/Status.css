@@ -7,19 +7,29 @@
 
 #status {
   font-family: 'Imprint';
-  text-align: center;
+  color: rgb(255, 255, 255);
+  word-spacing: .5vh;
+  text-wrap: wrap;
+  font-size: 3.5vh;
+
+  width: 55vh;
+  top: 66.5vh;
+  left: 71.5vh;
   position: relative;
+  text-align: center;
+
+  aspect-ratio: auto;
+  /* 
   justify-content: center;
   align-items: center;
-  color: rgb(255, 255, 255);
-  font-size: 3.5vh;
-  width: 55vh;
-  top: 70.5vh;
-  left: 71.5vh;
-  word-spacing: .5vh;
+  
+*/
+   
+
 }
 
 #dice-button {
+  aspect-ratio: auto;
   border: none;
   background-color: transparent;
   position: fixed;
@@ -28,11 +38,13 @@
 }
 
 #dice-image {
+  aspect-ratio: auto;
   position: relative;
   height: 10vh;
 }
 
 #hover {
+  aspect-ratio: auto;
   position: fixed;
   background-color: white;
   width: 40vh;
@@ -43,9 +55,11 @@
   border-radius: 1vh;
   bottom: 5vh;
   left: 78vh;
+  text-wrap: wrap;
 }
 
 #hover-button {
+  aspect-ratio: auto;
   position: fixed;
   float: right;
   border: none;
@@ -58,15 +72,23 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#hover-btn-text {
+  position: relative;
+  bottom: 3vh;
+}
+
 #close-img {
+  aspect-ratio: auto;
   height: 5vh;
 }
 
 #open-img {
+  aspect-ratio: auto;
   height: 5vh;
 }
 
 .popup {
+  aspect-ratio: auto;
   position: fixed;
   right: -45vh;
   top: 70vh;
@@ -77,21 +99,25 @@
 }
 
 #list {
+  aspect-ratio: auto;
   overflow-y: scroll;
   width: 55vh;
   height: 50vh;
 }
 
 #list-title {
+  aspect-ratio: auto;
   margin-left: 1vh;
 }
 
 #listlist {
+  aspect-ratio: auto;
   margin-right: 5vh;
 }
 
 /* deck of cards */
 #openButton {
+  aspect-ratio: auto;
   background: transparent;
   border: none;
   position: fixed;
@@ -101,5 +127,6 @@
 }
 
 #deck-of-cards-img {
+  aspect-ratio: auto;
   height: 10vh;
 }

@@ -9,6 +9,8 @@
     text-align: center;
     font-family: 'Harlow';
     font-size: xx-large;
+    text-wrap: wrap;
+    aspect-ratio: auto;
 }
 
 #open-alert {
@@ -17,16 +19,19 @@
     left: 25vh;
     background-color: transparent;
     border: none;
+    aspect-ratio: auto;
 }
 
 #alert-open-img {
     position: relative;
     height: 8vh;
+    aspect-ratio: auto;
 }
 
 #alert {
     background-position: center;
     border-style: dotted;
+    aspect-ratio: auto;
 }
 
 #close-alert {
@@ -34,10 +39,12 @@
     left: 20vh;
     top: 1vh;
     background-color: transparent;
+    aspect-ratio: auto;
 }
 
 #alert-close-img {
     height: 5vh;
+    aspect-ratio: auto;
 }
 
 /** Stolen from interwebs 😔 

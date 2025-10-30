@@ -96,10 +96,11 @@ function Status() {
         onMouseEnter={() => { if (hoverEnabled) setIsShown(true)}}
         onMouseLeave={() => { if (hoverEnabled) setIsShown(false)}}
       >
-        <div id="status">{randValue.split('\n').map((line, index) => (
+        <div>{randValue.split('\n').map((line, index) => (
           <React.Fragment key={index}>
-            {line}
-            <br />
+            <div id="status">
+              <p>{line}</p>
+            </div>
           </React.Fragment>
         ))}</div>
       </div>
@@ -129,13 +130,13 @@ function Status() {
             <>
               <img id="open-img" src={openImg} alt="Disable Hover"/>
               <br />
-              <span>disable hover</span> {/* close enough 😭 */}
+              <div id="hover-btn-text">disable hover</div> {/* close enough 😭 */}
             </> 
             ) : ( 
             <>
               <img id="close-img" src={closeImg} alt="Enable Hover"/> 
               <br />
-              <span>enable hover</span>
+              <div id="hover-btn-text">enable hover</div>
             </>
           )} 
         </button>
