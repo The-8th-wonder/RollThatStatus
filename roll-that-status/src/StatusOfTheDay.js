@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "Genesis 7 (Catholic) ";
+  const text = "I'm a sick mother fucker with a violent nature";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
