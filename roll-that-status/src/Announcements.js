@@ -15,7 +15,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "HAHAHA\ndon't think i forgot about you\ni'll get there eventually\nsome technical difficulties";
+    const text = "Hopefully I fixed the alignment issues. I'll come back to this at some point, but it's lower on my priority list these days.";
 
     const[isOpen, setIsOpen] = React.useState(false);
 

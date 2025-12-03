@@ -22,7 +22,7 @@ function PokerChip(){
           </button>
           {open && (
             <div id="popup">
-              <img id="secret-img" src={SecretImg} alt='' title="I drew this! I use it as my discord pfp"/>
+              <img id="secret-img" src={SecretImg} alt='' title="I drew this!"/>
               <button id="pokerchip-close-btn" title="close" onClick={() => setOpen(false)}>
                 Cash out!
               </button>

@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "That's the spirit! ☔";
+  const text = "";
 
   const[isOpen, setIsOpen] = React.useState(false);
 

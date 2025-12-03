@@ -14,7 +14,7 @@
     text-align: center;
     top: 6vh;
     right: 4vh;
-    text-wrap: wrap;
+    text-wrap-mode: wrap;
     aspect-ratio: auto;
 }
 
@@ -55,9 +55,9 @@
 }
 
 #close-button {
-    position: relative;
-    bottom: 11vh;
-    left: 35vh;
+    position: fixed;
+    bottom: 30vh;
+    left: 55vh;
     border: none;
     background-color: transparent;
     aspect-ratio: auto;
