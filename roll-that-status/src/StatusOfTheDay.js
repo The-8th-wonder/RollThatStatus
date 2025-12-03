@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "";
+  const text = "drown me in serenity amongst the ethereal sky";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
