@@ -162,7 +162,7 @@ function Status() {
                   <ol id="listlist">{key}. {value}</ol>
                 ))}
               </p>
-              <button onClick={togglePopup} title="close" id="closeButton">Close</button> (I'm too lazy to make this look nice sry)
+              <button onClick={togglePopup} title="close" id="closeButtondoc">Close</button> (I'm too lazy to make this look nice sry)
             </div>
           )}
       </div>

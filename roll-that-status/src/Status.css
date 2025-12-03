@@ -130,3 +130,7 @@
   aspect-ratio: auto;
   height: 10vh;
 }
+
+#closeButtondoc {
+  background-color: grey;
+}
