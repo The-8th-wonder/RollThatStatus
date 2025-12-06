@@ -55,9 +55,9 @@
 }
 
 #close-button {
-    position: fixed;
-    bottom: 30vh;
-    left: 50vh;
+    position: relative;
+    bottom: 10vh;
+    left: 42vh;
     border: none;
     background-color: transparent;
     aspect-ratio: auto;
