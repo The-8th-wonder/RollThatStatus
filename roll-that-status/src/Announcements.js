@@ -3,7 +3,8 @@ import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
 import './Announcements.css';
 import AlertOpen from './imgs/alert.gif';
-import CloseAlert from './imgs/Gilbert_Baker_Rainbow_Blob.png';
+import CloseAlert from './imgs/cashin.png';
+import DrawerImage from './imgs/announcement.png';
 
 export default function Announcement(){
   return (
@@ -15,7 +16,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "Hopefully I fixed the alignment issues. I'll come back to this at some point, but it's lower on my priority list these days.";
+    const text = "🎄Happy Holidays!🎉";
 
     const[isOpen, setIsOpen] = React.useState(false);
 
@@ -34,24 +35,28 @@ function AnnouncementTab() {
             open={isOpen}
             onClose={toggleDrawer}
             direction='top' 
-            size='10vh'
+            size='50vh'
             id="alert"
             style={{
-              marginTop: '2vh',
-              width: '10vh',
-              left: '70vh',
+              backgroundImage: `url(${DrawerImage})`,
               backgroundColor: 'transparent',
+              backgroundRepeat: 'no-repeat',
               boxShadow: 'none',
+              border: 'none',
+              outline: 'none',
+              left: '30%'
             }}
           >
             <div>
               <article>
-                <p id="alert-text" title={text}>{text.split('\n').map((line, index) => (
+                <div id="alert-text">
+                  <p title={text}>{text.split('\n').map((line, index) => (
                   <React.Fragment key={index}>
                     {line}
                     <br />
                   </React.Fragment>
                 ))}</p>
+                </div>
               </article>
               <button title="close alert" id="close-alert" onClick={toggleDrawer}><img id="alert-close-img" src={CloseAlert} alt="close alert"/></button>
             </div>
