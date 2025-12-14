@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'DeckOfCards';
+  src: url('fonts/Slot_numbers-Regular.eot'), url('fonts/Slot_numbers-Regular.ttf') format('truetype'), url('fonts/Slot_numbers-Regular.svg') format('svg');
+
+}
 
 #status {
   font-family: 'Imprint';
@@ -11,21 +16,12 @@
   word-spacing: .5vh;
   text-wrap: wrap;
   font-size: 3.5vh;
-
   width: 55vh;
   top: 70vh;
   left: 71.5vh;
   position: relative;
   text-align: center;
-
   aspect-ratio: auto;
-  /* 
-  justify-content: center;
-  align-items: center;
-  
-*/
-   
-
 }
 
 #dice-button {
@@ -103,20 +99,23 @@
   overflow-y: scroll;
   width: 55vh;
   height: 50vh;
+  font-family: 'DeckOfCards';
 }
 
 #list-title {
   aspect-ratio: auto;
   margin-left: 1vh;
+  font-family: 'DeckOfCards';
 }
 
-#listlist {
+#list-content {
   aspect-ratio: auto;
   margin-right: 5vh;
+  font-family: 'DeckOfCards';
 }
 
 /* deck of cards */
-#openButton {
+#openButton-doc {
   aspect-ratio: auto;
   background: transparent;
   border: none;
@@ -133,4 +132,5 @@
 
 #closeButtondoc {
   background-color: grey;
+  font-family: 'DeckOfCards';
 }

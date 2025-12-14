@@ -20,7 +20,7 @@ function Status() {
     return {
       1  : 'a smelly smell that smells smelly',
       2  : 'Drink Dr.Pepper, its a doctor, you can trust it\n😉',
-      3  : 'The bar is 6ft under',
+      3  : 'The bar is six feet under',
       4  : 'Laws can be broken, walk on the cieling',
       5  : 'I wish you knew how much I loved you',
       6  : 'Who will pray for Babylon?',
@@ -45,9 +45,7 @@ function Status() {
       25 : 'god Anteros, hear my plea',
       26 : 'That\'s the spirit! ☔'
 
-      // Also, I didn't ask 🫵😐 I don't need to explain myself to you
-      //...but it is sad though, you're right
-      // yes, a majority of these are song lyrics, what of it?
+      // I don't need to explain myself to you
     };
   }, []);
 
@@ -86,8 +84,6 @@ function Status() {
 
   /** HTML */
 
-  // this is sooooo gross i want to cry 😭
-  // and now im gonna make it more gross cause im stoopid :(
   return (
     <div>
       {/* main status */}
@@ -153,13 +149,13 @@ function Status() {
       {/* Deck of cards */}
       {/*  */}
       <div>
-        <button onClick={togglePopup} title="open status list" id="openButton"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
+        <button onClick={togglePopup} title="open status list" id="openButton-doc"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
           {open && (
             <div className="popup">
               <p id="list">
                 <span id="list-title">Here is a list of all the statuses:</span>
                 {Object.entries(statusDict).map(([key, value]) => (
-                  <ol id="listlist">{key}. {value}</ol>
+                  <ol id="list-context">{key}. {value}</ol>
                 ))}
               </p>
               <button onClick={togglePopup} title="close" id="closeButtondoc">Close</button> (I'm too lazy to make this look nice sry)
