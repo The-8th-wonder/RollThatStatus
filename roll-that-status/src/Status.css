@@ -6,8 +6,9 @@
 }
 @font-face {
   font-family: 'DeckOfCards';
-  src: url('fonts/Slot_numbers-Regular.eot'), url('fonts/Slot_numbers-Regular.ttf') format('truetype'), url('fonts/Slot_numbers-Regular.svg') format('svg');
-
+  src: url('fonts/Slots-Regular.eot'), url('fonts/Slots-Regular.ttf') format('truetype'), url('fonts/Slots-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 #status {
