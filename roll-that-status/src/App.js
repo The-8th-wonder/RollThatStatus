@@ -9,7 +9,7 @@ export default function App(){
             <RunStatus />
             <StatusOfTheDay />
             <PokerChip />
-            <Announcement />
+            //<Announcement />
         </section>
     )
 }
