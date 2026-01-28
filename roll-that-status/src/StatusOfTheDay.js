@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "The only people that care about my existence is the tax collectors";
+  const text = "The only people that care about\nmy existence is the tax collectors";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
