@@ -15,7 +15,7 @@ function ComputerButtonFunction() {
     return (
         <div id="computer-div">
             <form action="https://github.com/The-8th-wonder/RollThatStatus">
-                <button type="submit" title="I'm a computer, I'm a computery guy" id="computer-button">
+                <button type="submit" title="Go to the GitHub repository!" id="computer-button">
                 <img id="computer-button-img" src={ComputerButtonImage} alt="computer-button-img"/>
               </button>
             </form>
