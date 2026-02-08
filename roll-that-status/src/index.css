@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
   position: fixed;
   background-image: url('imgs/better-background.png');
