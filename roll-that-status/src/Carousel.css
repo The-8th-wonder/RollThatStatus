@@ -1,0 +1,29 @@
+.full-width-carousel {
+    position: relative;
+    right: 100vh;
+    bottom: 50vh;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.full-width-slide {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-width-slide img {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.slide-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
