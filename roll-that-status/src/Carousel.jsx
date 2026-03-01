@@ -8,7 +8,7 @@ import Pfp from './imgs/poker-chip/prisonerNumber3-REDESIGN.png';
 const Carousel = () => {
     const settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 1, 
         slidesToScroll: 1,
@@ -27,7 +27,7 @@ const Carousel = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1, 
-                    infinite: false,
+                    infinite: true,
                     dots: true
                 }
             },
