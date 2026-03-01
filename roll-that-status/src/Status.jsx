@@ -43,7 +43,8 @@ function Status() {
       23 : 'Love me, that\'s all I ask of you.',
       24 : 'This burning desire, is turning me to sin.',
       25 : 'We\'ll just have to eat the elephant, one bite at a time.',
-      26 : 'Enjoy it... enjoy it all!'
+      26 : 'Enjoy it... enjoy it all!',
+      27 : 'Give them the rope and they\'ll hang themselves'
 
       // Also, I didn't ask 🫵😐 I don't need to explain myself to you
       //...but it is sad though, you're right
