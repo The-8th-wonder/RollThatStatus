@@ -17,7 +17,7 @@ function PokerChip(){
     return (
       <>
         <div>
-          <button id="pc-btn" title="open secret" onClick={() => setOpen(true)}>
+          <button id="pc-btn" title="art I've done" onClick={() => setOpen(true)}>
             <img id="pc-img" src={PCImage} alt=''/>
           </button>
           {open && (
