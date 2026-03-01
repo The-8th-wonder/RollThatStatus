@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import PCImage from './imgs/poker-chip/pokerchip.png';
 import './PokerChip.css';
-import SecretImg from './imgs/poker-chip/prisonerNumber3-REDESIGN.png';
 import Carousel from "./Carousel.jsx"
 
 export default function PokerChipFunc(){

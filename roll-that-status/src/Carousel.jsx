@@ -1,9 +1,10 @@
-import React from 'react';
 import Slider from 'react-slick';
 import './Carousel.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Pfp from './imgs/poker-chip/prisonerNumber3-REDESIGN.png';
+import image1 from './imgs/poker-chip/prisonerNumber3-REDESIGN.png';
+import image2 from './imgs/poker-chip/idk-wtf-i-drew.png';
+import image3 from './imgs/poker-chip/horror-doodles.png';
 
 const Carousel = () => {
     const settings = {
@@ -16,7 +17,7 @@ const Carousel = () => {
         appendDots: dots => (
             <div>
                 <ul style={{
-                    margin: "0px", padding: "0px"
+                    margin: "0px", padding: "0px", 
                 }}> {dots} </ul>
             </div>
         ),
@@ -45,20 +46,20 @@ const Carousel = () => {
     return (
         <>
             <div className="full-width-carousel">
-                <Slider {...settings}>
+                <Slider {...settings} className="slider">
                     <div className="full-width-slide">
-                        <img src={Pfp} 
+                        <img src={image1} 
                          alt='' 
                          title="I drew this!"
                          className="slide-image" />
                     </div>
                     <div className="full-width-slide">
-                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240307153531/GeeksforGeeks-Classroom-Program---DSA-For-Interview-Preparation-Course.webp"
-                         alt="Slide 2"
+                        <img src={image2}
+                         alt=""
                          className="slide-image" />
                     </div>
                     <div className="full-width-slide">
-                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240307153605/School-programming.png"
+                        <img src={image3}
                          alt="Slide 3"
                          className="slide-image" />
                     </div>
