@@ -36,15 +36,12 @@ function Status() {
       16 : 'But maybe life on Earth could be heaven. Doesn\'t just the thought of it make it worth the try?',
       17 : 'Don\'t panic!',
       18 : 'Keep on keeping on 👍',
-      19 : 'Silly faggot, dicks are for chicks!',
+      19 : 'We\'ll just have to eat the elephant, one bite at a time.',
       20 : 'If music be the food of love, play on!',
       21 : 'Anything goes but don\'t blink, you might miss',
       22 : 'Some may call it maddness, oh but I call it love.',
-      23 : 'Love me, that\'s all I ask of you.',
-      24 : 'This burning desire, is turning me to sin.',
-      25 : 'We\'ll just have to eat the elephant, one bite at a time.',
-      26 : 'Enjoy it... enjoy it all!',
-      27 : 'Give them the rope and they\'ll hang themselves'
+      23 : 'Enjoy it... enjoy it all!',
+      24 : 'life\'s too short to be negative, find peace in the fact that you are alive in the here and now'
 
       // Also, I didn't ask 🫵😐 I don't need to explain myself to you
       //...but it is sad though, you're right
