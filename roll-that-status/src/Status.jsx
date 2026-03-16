@@ -20,17 +20,17 @@ function Status() {
     return {
       1  : '\"Without deviation from the norm, progress is not possible.\"',
       2  : 'And I have miles to go before I sleep.',
-      3  : 'You\'re beauty never, ever scared me.',
-      4  : 'This too, shall pass.',
+      3  : 'You\'re beauty never ever scared me.',
+      4  : 'This too shall pass.',
       5  : 'I wish you knew how much I loved you.',
       6  : 'Who will pray for Babylon?',
       7  : 'Despite everything, it\'s still you.',
       8  : 'That\'s the spirit! ☔',
-      9  : 'I have traveled far beyond the path of reason.',
+      9  : 'Life is ours to choose',
       10 : '𝓉𝒽𝑒 𝓆𝓊𝒾𝑒𝓉 𝒸𝑜𝓂𝓅𝓇𝑒𝒽𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝓉𝒽𝑒 𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝒾𝓉 𝒶𝓁𝓁',
       11 : 'louder than gods revolver and twice as shiny',
       12 : 'I am the master of my fate, I am the captain of my soul.',
-      13 : 'Seven Inches of Satanic Panic',
+      13 : 'Some may call it maddness, oh but I call it love.',
       14 : 'Does it need saying?',
       15 : 'life\'s too short to be negative, find peace in the fact that you are alive in the here and now',
       16 : 'But maybe life on Earth could be heaven. Doesn\'t just the thought of it make it worth the try?',
@@ -38,8 +38,7 @@ function Status() {
       18 : 'Keep on keeping on 👍',
       19 : 'We\'ll just have to eat the elephant, one bite at a time.',
       20 : 'If music be the food of love, play on!',
-      21 : 'Enjoy it... enjoy it all!',
-      22 : 'Some may call it maddness, oh but I call it love.'
+      21 : 'Enjoy it... enjoy it all!'
 
       // Also, I didn't ask 🫵😐 I don't need to explain myself to you
       //...but it is sad though, you're right
