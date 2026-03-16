@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "lifes to short to be negative, find peace in the fact that you are alive in the here and now";
+  const text = "lifes to short to be negative, find peace in the fact\n that you are alive in the here and now";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
