@@ -17,7 +17,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "pitty from pretty lips";
+  const text = "If you wanna soar with vultures\nyou\'ll have to swallow bone";
 
   const[isOpen, setIsOpen] = React.useState(false);
 
