@@ -3,7 +3,7 @@ import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
 import openImg from './imgs/enabled-hover.png';
 import closeImg from './imgs/disabled-hover.png';
-import DeckOfCards from './imgs/deck-of-cards.png';
+import DeckOfCards from './imgs/dead-mans-hand.png';
 
 export default function RunStatus(){
   return (
