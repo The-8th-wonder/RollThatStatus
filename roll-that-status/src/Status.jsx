@@ -123,15 +123,15 @@ function Status() {
           {hoverEnabled ? 
           ( 
             <>
-              <img title="disable" id="open-img" src={openImg} alt="Disable Hover"/>
+              <img title="disable status hover text" id="open-img" src={openImg} alt="Disable Hover"/>
               <br />
-              <div id="hover-btn-text">disable hover</div> {/* close enough 😭 */}
+              <div id="hover-btn-text"></div> {/* delete this later probably */}
             </> 
             ) : ( 
             <>
-              <img title="enable" id="close-img" src={closeImg} alt="Enable Hover"/> 
+              <img title="enable status hover text" id="close-img" src={closeImg} alt="Enable Hover"/> 
               <br />
-              <div id="hover-btn-text">enable hover</div>
+              <div id="hover-btn-text"></div> {/* delete this later probably */}
             </>
           )} 
         </button>
