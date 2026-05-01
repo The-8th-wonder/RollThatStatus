@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
-import openImg from './imgs/open.jpg';
-import closeImg from './imgs/close.jpg';
+import openImg from './imgs/enabled-hover.png';
+import closeImg from './imgs/disabled-hover.png';
 import DeckOfCards from './imgs/deck-of-cards.png';
 
 export default function RunStatus(){
