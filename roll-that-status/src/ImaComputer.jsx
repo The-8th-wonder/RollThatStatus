@@ -1,6 +1,6 @@
 import React from 'react';
 import './ImaComputer.css';
-import ComputerButtonImage from './imgs/imacomputer.png';
+import ComputerButtonImage from './imgs/8ball.png';
 
 export default function ComputerButton(){
   return (
