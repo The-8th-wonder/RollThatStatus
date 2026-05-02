@@ -65,6 +65,7 @@ I will try to update the list regularly whenever there are changes.
 - JavaScript
 - CSS
 - HTML
-- [React Library](https://react.dev) ~ JavaScript library for front end development
+- ~~[React Library](https://react.dev) ~ JavaScript library for front end development~~
+  - [Viject](https://github.com/bhbs/viject/tree/main) - due to react, react-scripts specifically, having a massive security issue, I migrated to Vite using the tool Viject 🙏
+  - [Vite](https://vite.dev)
 - [Vercel](https://vercel.com/home) ~ a website that lets you deploy your websites for free
-- [Tailwind](https://tailwindcss.com/) ~ CSS framework for managing website sizing to display size (i.e., handling different desktop screen sizes and mobile size)

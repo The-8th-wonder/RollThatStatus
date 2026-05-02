@@ -1,0 +1,14 @@
+#computer-button {
+    position: fixed;
+    bottom: 31vh;
+    left: 5vh;
+    background-color: transparent;
+    border: none;
+    aspect-ratio: auto;
+}
+
+#computer-button-img {
+    position: relative;
+    height: 8vh;
+    aspect-ratio: auto;
+}

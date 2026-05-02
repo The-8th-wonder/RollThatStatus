@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
-import openImg from './imgs/open.jpg';
-import closeImg from './imgs/close.jpg';
-import DeckOfCards from './imgs/deck-of-cards.png';
+import openImg from './imgs/enabled-hover.png';
+import closeImg from './imgs/disabled-hover.png';
+import DeckOfCards from './imgs/dead-mans-hand.png';
 
 export default function RunStatus(){
   return (
@@ -18,34 +18,31 @@ function Status() {
   // dictionary of statuses
   const statusDict = useMemo(() => {
     return {
-      1  : 'a smelly smell that smells smelly',
-      2  : 'Drink Dr.Pepper, its a doctor, you can trust it\n😉',
-      3  : 'The bar is six feet under',
-      4  : 'Laws can be broken, walk on the cieling',
-      5  : 'I wish you knew how much I loved you',
+      1  : '\"Without deviation from the norm, progress is not possible.\"',
+      2  : 'And I have miles to go before I sleep.',
+      3  : 'You\'re beauty never ever scared me.',
+      4  : 'This too shall pass.',
+      5  : 'I wish you knew how much I loved you.',
       6  : 'Who will pray for Babylon?',
-      7  : 'Despite everything, it\'s still you',
-      8  : 'I ɐɯ ɐ ʍɐlʞᴉuƃ dɐɹɐpox',
-      9  : '*sips juice*',
-      10 : 'Don\'t lick the walls',
-      11 : 'oh?',
-      12 : 'I have traveled far beyond the path of reason',
-      13 : '𝓉𝒽𝑒 𝓆𝓊𝒾𝑒𝓉 𝒸𝑜𝓂𝓅𝓇𝑒𝒽𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝓉𝒽𝑒 𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝒾𝓉 𝒶𝓁𝓁',
-      14 : 'louder than gods revolver and twice as shiny',
-      15 : 'Heading to rock bottom, you guys need anything?',
-      16 : 'I reap what I sow. I wonder if it will be a good harvest this year...',
-      17 : 'Almond scented?👀 That\'s my favorite🥰',
-      18 : 'I WILL learn the secrets of the universe, watch me.',
-      19 : 'I don\'t even have the will to live. Why would I have the will to brush my teeth??',
-      20 : 'Does it need saying?',
-      21 : 'The beatings will continue until moral improves',
-      22 : 'But maybe life on Earth could be heaven. Doesn\'t just the thought of it make it worth the try?',
-      23 : 'Don\'t panic!',
-      24 : 'Keep on keeping on 👍',
-      25 : 'god Anteros, hear my plea',
-      26 : 'That\'s the spirit! ☔'
+      7  : 'Despite everything, it\'s still you.',
+      8  : 'That\'s the spirit! ☔',
+      9  : 'Life is ours to choose',
+      10 : '𝓉𝒽𝑒 𝓆𝓊𝒾𝑒𝓉 𝒸𝑜𝓂𝓅𝓇𝑒𝒽𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝓉𝒽𝑒 𝑒𝓃𝒹𝒾𝓃𝑔 𝑜𝒻 𝒾𝓉 𝒶𝓁𝓁',
+      11 : 'louder than gods revolver and twice as shiny',
+      12 : 'I am the master of my fate, I am the captain of my soul.',
+      13 : 'Some may call it maddness, oh but I call it love.',
+      14 : 'Does it need saying?',
+      15 : 'life\'s too short to be negative, find peace in the fact that you are alive in the here and now',
+      16 : 'But maybe life on Earth could be heaven. Doesn\'t just the thought of it make it worth the try?',
+      17 : 'Don\'t panic!',
+      18 : 'Keep on keeping on 👍',
+      19 : 'We\'ll just have to eat the elephant, one bite at a time.',
+      20 : 'If music be the food of love, play on!',
+      21 : 'Enjoy it... enjoy it all!'
 
-      // I don't need to explain myself to you
+      // Also, I didn't ask 🫵😐 I don't need to explain myself to you
+      //...but it is sad though, you're right
+      // yes, a majority of these are song lyrics, what of it?
     };
   }, []);
 
@@ -124,15 +121,15 @@ function Status() {
           {hoverEnabled ? 
           ( 
             <>
-              <img id="open-img" src={openImg} alt="Disable Hover"/>
+              <img title="disable status hover text" id="open-img" src={openImg} alt="Disable Hover"/>
               <br />
-              <div id="hover-btn-text">disable hover</div> {/* close enough 😭 */}
+              <div id="hover-btn-text"></div> {/* delete this later probably */}
             </> 
             ) : ( 
             <>
-              <img id="close-img" src={closeImg} alt="Enable Hover"/> 
+              <img title="enable status hover text" id="close-img" src={closeImg} alt="Enable Hover"/> 
               <br />
-              <div id="hover-btn-text">enable hover</div>
+              <div id="hover-btn-text"></div> {/* delete this later probably */}
             </>
           )} 
         </button>
