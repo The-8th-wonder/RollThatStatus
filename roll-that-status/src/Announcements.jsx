@@ -5,6 +5,7 @@ import './Announcements.css';
 import AlertOpen from './imgs/jackpot_animation.gif';
 import CloseAlert from './imgs/cashin.png';
 import DrawerImage from './imgs/announcement.png';
+import AlertClose from './imgs/closed-announcement.png';
 
 export default function Announcement(){
   return (
@@ -16,7 +17,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "🎄Happy Holidays!🎉";
+    const text = "Happy May Day!";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const [hasClosed, setHasClosed] = React.useState(false);
@@ -36,7 +37,7 @@ function AnnouncementTab() {
           <button title="open alert" id="open-alert" onClick={toggleDrawer}>
             <img 
               id="alert-open-img" 
-              src={hasClosed ? CloseAlert : AlertOpen} 
+              src={hasClosed ? AlertClose : AlertOpen} 
               alt="open alert"
             />
           </button>
