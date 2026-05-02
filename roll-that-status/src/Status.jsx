@@ -3,7 +3,6 @@ import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
 import openImg from './imgs/enabled-hover.png';
 import closeImg from './imgs/disabled-hover.png';
-// import DeckOfCards from './imgs/dead-mans-hand.png';
 import AceOfSpades from './imgs/ace-of-spades.png';
 import AceOfClubs from './imgs/ace-of-clubs.png';
 import EightOfClubs from './imgs/eight-of-clubs.png';
