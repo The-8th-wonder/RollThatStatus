@@ -21,11 +21,11 @@ function Tab() {
 
   const[isOpen, setIsOpen] = React.useState(false);
 
-  const[showBadge, setshowBadge] = React.useState(true); //comment out to de-activate status of the day
+  const[showBadge, setshowBadge] = React.useState(true);
 
   const toggleDrawer = () => {
        setIsOpen((prevState) => !prevState);
-       setshowBadge(false); //comment out to de-activate status of the day
+       setshowBadge(false); 
   }
 
   return (
@@ -35,7 +35,6 @@ function Tab() {
           <img id="open-image" src={OpenImage} alt="open"/>
         </button>
         {showBadge && <span id="badge">1</span> } 
-        {/* ^comment out to de-activate status of the day */}
       </div> 
         <Drawer
             open={isOpen}
