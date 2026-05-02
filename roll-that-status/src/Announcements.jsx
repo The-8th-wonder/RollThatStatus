@@ -2,7 +2,7 @@ import React from 'react';
 import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
 import './Announcements.css';
-import AlertOpen from './imgs/alert.gif';
+import AlertOpen from './imgs/jackpot_animation.gif';
 import CloseAlert from './imgs/cashin.png';
 import DrawerImage from './imgs/announcement.png';
 
@@ -19,16 +19,26 @@ function AnnouncementTab() {
     const text = "🎄Happy Holidays!🎉";
 
     const[isOpen, setIsOpen] = React.useState(false);
+    const [hasClosed, setHasClosed] = React.useState(false);
 
     const toggleDrawer = () => {
-        setIsOpen((prevState) => !prevState);
+      // If the drawer is currently open and is about to close, mark the user has closed it.
+      if (isOpen){
+        setHasClosed(true);
+      }
+
+      setIsOpen((prevState) => !prevState);
     }
 
     return (
       <>
         <div id="alert-div">
           <button title="open alert" id="open-alert" onClick={toggleDrawer}>
-            <img id="alert-open-img" src={AlertOpen} alt="open alert"/>
+            <img 
+              id="alert-open-img" 
+              src={hasClosed ? CloseAlert : AlertOpen} 
+              alt="open alert"
+            />
           </button>
         </div> 
           <Drawer
