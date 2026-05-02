@@ -126,12 +126,47 @@
   right: 10vh;
 }
 
-#deck-of-cards-img {
+/* #ace-spades-fan {
   aspect-ratio: auto;
   height: 10vh;
 }
+#eight-clubs-fan {
+  aspect-ratio: auto;
+  height: 10vh;
+}
+#ace-clubs-fan {
+  aspect-ratio: auto;
+  height: 10vh;
+}
+#eight-spades-fan {
+  aspect-ratio: auto;
+  height: 10vh;
+} */
 
 #closeButtondoc {
   background-color: grey;
   font-family: 'DeckOfCards';
+}
+
+/* card fan source: */
+.card-fan {
+  aspect-ratio: auto;
+  height: 10vh;
+  position: absolute;
+  width: 200px;
+  transform-origin: bottom;
+  transition: all .3s linear;
+}
+
+.cards-fan-container:hover #ace-spades-fan{
+  transform: rotate(20deg);
+}
+.cards-fan-container:hover #eight-clubs-fan{
+  transform: rotate(-20deg);
+}
+.cards-fan-container:hover #ace-clubs-fan{
+  transform: rotate(10deg);
+}
+.cards-fan-container:hover #eight-spades-fan{
+  transform: rotate(-10deg);
 }

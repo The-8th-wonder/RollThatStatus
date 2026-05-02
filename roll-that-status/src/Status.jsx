@@ -3,7 +3,11 @@ import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
 import openImg from './imgs/enabled-hover.png';
 import closeImg from './imgs/disabled-hover.png';
-import DeckOfCards from './imgs/dead-mans-hand.png';
+// import DeckOfCards from './imgs/dead-mans-hand.png';
+import AceOfSpades from './imgs/ace-of-spades.png';
+import AceOfClubs from './imgs/ace-of-clubs.png';
+import EightOfClubs from './imgs/eight-of-clubs.png';
+import EightOfSpades from './imgs/eight-of-spades.png';
 
 export default function RunStatus(){
   return (
@@ -145,8 +149,13 @@ function Status() {
 
       {/* Deck of cards */}
       {/*  */}
-      <div>
-        <button onClick={togglePopup} title="open status list" id="openButton-doc"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
+      <div class="cards-fan-container">
+        <button onClick={togglePopup} title="open status list" id="openButton-doc" alt="list of statuses">
+          <img src={AceOfSpades} class="card-fan" id="ace-spades-fan" />
+          <img src={EightOfClubs} class="card-fan" id="eight-clubs-fan" />
+          <img src={AceOfClubs} class="card-fan" id="ace-clubs-fan" />
+          <img src={EightOfSpades} class="card-fan" id="eight-spades-fan" />
+        </button>
           {open && (
             <div className="popup">
               <p id="list">
