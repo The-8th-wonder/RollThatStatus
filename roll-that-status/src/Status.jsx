@@ -8,6 +8,7 @@ import AceOfSpades from './imgs/ace-of-spades.png';
 import AceOfClubs from './imgs/ace-of-clubs.png';
 import EightOfClubs from './imgs/eight-of-clubs.png';
 import EightOfSpades from './imgs/eight-of-spades.png';
+import BackOfCard from './imgs/back-of-card.png';
 
 export default function RunStatus(){
   return (
@@ -151,10 +152,12 @@ function Status() {
       {/*  */}
       <div class="cards-fan-container">
         <button onClick={togglePopup} title="open status list" id="openButton-doc" alt="list of statuses">
-          <img src={AceOfSpades} class="card-fan" id="ace-spades-fan" />
-          <img src={EightOfClubs} class="card-fan" id="eight-clubs-fan" />
-          <img src={AceOfClubs} class="card-fan" id="ace-clubs-fan" />
+          <img src={BackOfCard} class="card-fan" id="back-of-card-fan" />
           <img src={EightOfSpades} class="card-fan" id="eight-spades-fan" />
+          <img src={AceOfClubs} class="card-fan" />
+          <img src={EightOfClubs} class="card-fan" id="eight-clubs-fan" />
+          <img src={AceOfSpades} class="card-fan" id="ace-spades-fan" />
+
         </button>
           {open && (
             <div className="popup">

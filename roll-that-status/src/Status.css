@@ -153,7 +153,6 @@
   aspect-ratio: auto;
   height: 10vh;
   position: absolute;
-  width: 200px;
   transform-origin: bottom;
   transition: all .3s linear;
 }
@@ -162,11 +161,11 @@
   transform: rotate(20deg);
 }
 .cards-fan-container:hover #eight-clubs-fan{
-  transform: rotate(-20deg);
-}
-.cards-fan-container:hover #ace-clubs-fan{
   transform: rotate(10deg);
 }
 .cards-fan-container:hover #eight-spades-fan{
   transform: rotate(-10deg);
+}
+.cards-fan-container:hover #back-of-card-fan{
+  transform: rotate(-20deg);
 }
