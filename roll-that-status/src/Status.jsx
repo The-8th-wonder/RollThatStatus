@@ -39,7 +39,7 @@ function Status() {
       19 : 'We\'ll just have to eat the elephant, one bite at a time.',
       20 : 'If music be the food of love, play on!',
       21 : 'Enjoy it... enjoy it all!',
-      22 : 'There is no secret ingredient, it's just you ❤️'
+      22 : 'There is no secret ingredient, it\'s just you ❤️'
 
       // Also, I didn't ask 🫵😐 I don't need to explain myself to you
       //...but it is sad though, you're right
