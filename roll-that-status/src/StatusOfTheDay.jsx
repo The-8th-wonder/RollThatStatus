@@ -18,7 +18,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "";
+  const text = AngyGif;
 
   const[isOpen, setIsOpen] = React.useState(false);
 
@@ -61,7 +61,7 @@ function Tab() {
               <p id="text">{text.split('\n').map((line, index) => (
                 <React.Fragment key={index}>
                   {line}
-                  <img src={text} alt="angry gif" />
+                  <img src={text} alt="angy gif" />
                   <br />
                 </React.Fragment>
               ))}</p>
