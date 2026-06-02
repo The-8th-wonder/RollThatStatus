@@ -20,6 +20,7 @@ function Tab() {
   // Status of the day text
   // const text = "I am a petty bitch";
   const text = AngyGif; // If this works, I hate JavaScript...
+  <img src={text} alt="angry gif" />
 
   const[isOpen, setIsOpen] = React.useState(false);
 
