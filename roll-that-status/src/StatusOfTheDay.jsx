@@ -5,6 +5,7 @@ import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
 import OpenImage from './imgs/OPEN.png';
 import CloseImage from './imgs/CLOSE.png';
+import AngyGif from './imgs/angy.gif';
 
 export default function StatusOfTheDay(){
   return (
@@ -17,7 +18,8 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "I am a petty bitch";
+  // const text = "I am a petty bitch";
+  const text = AngyGif; // If this works, I hate JavaScript...
 
   const[isOpen, setIsOpen] = React.useState(false);
 
