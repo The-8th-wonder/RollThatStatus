@@ -5,6 +5,7 @@ import './StatusOfTheDay.css';
 import DrawerImage from './imgs/status-of-the-day.png';
 import OpenImage from './imgs/OPEN.png';
 import CloseImage from './imgs/CLOSE.png';
+import AngyGif from './imgs/angy.gif';
 
 export default function StatusOfTheDay(){
   return (
@@ -17,15 +18,15 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "lifes to short to be negative, find peace in the\n fact that you are alive in the here and now";
+  const text = "And you can have it all,\nmy empire of dirt"
 
   const[isOpen, setIsOpen] = React.useState(false);
 
-  const[showBadge, setshowBadge] = React.useState(true); //comment out to de-activate status of the day
+  const[showBadge, setshowBadge] = React.useState(true);
 
   const toggleDrawer = () => {
        setIsOpen((prevState) => !prevState);
-       setshowBadge(false); //comment out to de-activate status of the day
+       setshowBadge(false); 
   }
 
   return (
@@ -35,7 +36,6 @@ function Tab() {
           <img id="open-image" src={OpenImage} alt="open"/>
         </button>
         {showBadge && <span id="badge">1</span> } 
-        {/* ^comment out to de-activate status of the day */}
       </div> 
         <Drawer
             open={isOpen}
