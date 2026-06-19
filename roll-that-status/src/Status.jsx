@@ -3,7 +3,11 @@ import './Status.css';
 import DiceButton from './imgs/king-dice-head.png';
 import openImg from './imgs/enabled-hover.png';
 import closeImg from './imgs/disabled-hover.png';
-import DeckOfCards from './imgs/dead-mans-hand.png';
+import AceOfSpades from './imgs/ace-of-spades.png';
+import AceOfClubs from './imgs/ace-of-clubs.png';
+import EightOfClubs from './imgs/eight-of-clubs.png';
+import EightOfSpades from './imgs/eight-of-spades.png';
+import BackOfCard from './imgs/back-of-card.png';
 
 export default function RunStatus(){
   return (
@@ -20,7 +24,7 @@ function Status() {
     return {
       1  : '\"Without deviation from the norm, progress is not possible.\"',
       2  : 'And I have miles to go before I sleep.',
-      3  : 'You\'re beauty never ever scared me.',
+      3  : 'Your beauty never ever scared me.',
       4  : 'This too shall pass.',
       5  : 'I wish you knew how much I loved you.',
       6  : 'Who will pray for Babylon?',
@@ -82,8 +86,6 @@ function Status() {
 
   /** HTML */
 
-  // this is sooooo gross i want to cry 😭
-  // and now im gonna make it more gross cause im stoopid :(
   return (
     <div>
       {/* main status */}
@@ -148,14 +150,21 @@ function Status() {
 
       {/* Deck of cards */}
       {/*  */}
-      <div>
-        <button onClick={togglePopup} title="open status list" id="openButton"><img id="deck-of-cards-img" src={DeckOfCards} alt="list of statuses"/></button>
+      <div class="cards-fan-container">
+        <button onClick={togglePopup} title="open status list" id="openButton-doc" alt="list of statuses">
+          <img src={BackOfCard} class="card-fan" id="back-of-card-fan" />
+          <img src={EightOfSpades} class="card-fan" id="eight-spades-fan" />
+          <img src={AceOfClubs} class="card-fan" />
+          <img src={EightOfClubs} class="card-fan" id="eight-clubs-fan" />
+          <img src={AceOfSpades} class="card-fan" id="ace-spades-fan" />
+
+        </button>
           {open && (
             <div className="popup">
               <p id="list">
                 <span id="list-title">Here is a list of all the statuses:</span>
                 {Object.entries(statusDict).map(([key, value]) => (
-                  <ol id="listlist">{key}. {value}</ol>
+                  <ol id="list-context">{key}. {value}</ol>
                 ))}
               </p>
               <button onClick={togglePopup} title="close" id="closeButtondoc">Close</button> (I'm too lazy to make this look nice sry)
