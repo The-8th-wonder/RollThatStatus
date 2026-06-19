@@ -24,7 +24,7 @@ function Status() {
     return {
       1  : '\"Without deviation from the norm, progress is not possible.\"',
       2  : 'And I have miles to go before I sleep.',
-      3  : 'You\'re beauty never ever scared me.',
+      3  : 'Your beauty never ever scared me.',
       4  : 'This too shall pass.',
       5  : 'I wish you knew how much I loved you.',
       6  : 'Who will pray for Babylon?',
