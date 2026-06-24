@@ -45,10 +45,11 @@
 
 #close-alert {
     position: relative;
-    left: 25vh;
-    top: 35vh;
+    left: 24vh;
+    top: 30vh;
     background-color: transparent;
     aspect-ratio: auto;
+    outline: none;
 }
 
 #alert-close-img {
