@@ -8,6 +8,7 @@ export default function App(){
     return(
         <section>
             <RunStatus />
+            <Announcement />
             <StatusOfTheDay />
             <PokerChip />
             <ImaComputer />
