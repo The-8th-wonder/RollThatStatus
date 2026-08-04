@@ -5,10 +5,6 @@
   font-style: normal;
 }
 
-#div-line {
-    text-wrap: wrap;
-}
-
 #alert-text {
     font-family: 'VegasFont';
     font-size: 5vh;
