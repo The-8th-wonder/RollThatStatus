@@ -17,7 +17,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "Gay 🫵😐";
+    const text = "I'm on my writing arc, so this is on haitus";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const [hasClosed, setHasClosed] = React.useState(false);
