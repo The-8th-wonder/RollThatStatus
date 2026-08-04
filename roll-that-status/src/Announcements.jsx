@@ -63,7 +63,7 @@ function AnnouncementTab() {
                 <div id="alert-text">
                   <p title={text}>{text.split('\n').map((line, index) => (
                   <React.Fragment key={index}>
-                    <div>
+                    <div id="div-line">
                       {line}
                       <br />
                     </div>
