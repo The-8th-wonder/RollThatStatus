@@ -17,7 +17,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "I'm on my writing arc, so this is on haitus";
+    const text = "I'm on my writing arc,\nso this is on haitus";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const [hasClosed, setHasClosed] = React.useState(false);
@@ -63,10 +63,8 @@ function AnnouncementTab() {
                 <div id="alert-text">
                   <p title={text}>{text.split('\n').map((line, index) => (
                   <React.Fragment key={index}>
-                    <div id="div-line">
-                      {line}
-                      <br />
-                    </div>
+                    {line}
+                    <br />
                   </React.Fragment>
                 ))}</p>
                 </div>
