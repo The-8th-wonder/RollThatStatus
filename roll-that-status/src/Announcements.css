@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+p {
+    text-wrap: wrap;
+}
+
 #alert-text {
     font-family: 'VegasFont';
     font-size: 5vh;
