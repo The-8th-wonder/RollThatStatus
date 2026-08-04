@@ -11,6 +11,7 @@
     position: relative;
     top: 22vh;
     left: 20vh;
+    text-wrap: wrap;
 }
 
 #open-alert {
