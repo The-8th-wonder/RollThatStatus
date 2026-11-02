@@ -18,7 +18,7 @@ export default function StatusOfTheDay(){
 function Tab() {
 
   // Status of the day text
-  const text = "I\'m partying like a 2o-year-old should\nand I\'m hating every second of it"
+  const text = "I\'m partying like a 20-year-old should\nand I\'m hating every second of it"
 
   const[isOpen, setIsOpen] = React.useState(false);
 
