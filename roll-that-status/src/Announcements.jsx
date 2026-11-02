@@ -17,7 +17,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "I'm on my writing arc,\nso this is on haitus";
+    const text = "I hope to get back to this soon :(";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const [hasClosed, setHasClosed] = React.useState(false);
