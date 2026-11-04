@@ -9,8 +9,8 @@
     font-family: 'VegasFont';
     font-size: 5vh;
     position: relative;
-    top: 25vh;
-    left: 5vh;
+    top: 22vh;
+    left: 20vh;
 }
 
 #open-alert {
@@ -45,10 +45,12 @@
 
 #close-alert {
     position: relative;
-    left: 25vh;
-    top: 35vh;
+    left: 23vh;
+    top: 28vh;
     background-color: transparent;
     aspect-ratio: auto;
+    outline: none;
+    border: none;
 }
 
 #alert-close-img {

@@ -17,7 +17,7 @@ export default function Announcement(){
 
 function AnnouncementTab() {
 
-    const text = "Happy May Day!";
+    const text = "I hope to get\nback to this soon\n:(";
 
     const[isOpen, setIsOpen] = React.useState(false);
     const [hasClosed, setHasClosed] = React.useState(false);
