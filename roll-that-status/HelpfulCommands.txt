@@ -1,0 +1,17 @@
+> Note: I had to re-install vite to get this to run again (and did some audit fixes)
+
+# check list of npm installed packages
+
+> npm list
+
+# update package
+
+> npm update [package]
+
+# check for unused packages
+
+> npx depcheck 
+
+# check for updates
+
+> npx npm-check-updates
